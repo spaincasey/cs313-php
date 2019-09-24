@@ -1,8 +1,16 @@
-body {
-    background-color: lightcyan;
-  }
-  
-p {
-    font-family: verdana;
-    font-size: 20px;
-  }
+#div1 {
+    font-size: 18px;
+    background-color: aqua;
+}
+#div2 {
+    font-size: 18px;
+    background-color: green;
+}
+#div3 {
+    font-size: 18px;
+    background-color: pink;
+}
+
+div:hover {
+    font-weight: bold;
+}
