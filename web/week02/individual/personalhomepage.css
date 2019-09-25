@@ -1,7 +1,9 @@
 body {
     background-color: grey;
 }
-
+h1 {
+    align-self: center;
+}
 .center {
     display: block;
     margin-left: auto;
