@@ -2,7 +2,7 @@ body {
     background-color: grey;
 }
 h1 {
-    align-self: center;
+    text-align: center;
 }
 .center {
     display: block;
