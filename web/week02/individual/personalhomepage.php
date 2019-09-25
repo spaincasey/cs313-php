@@ -10,6 +10,7 @@
         <script src="personalhomepage.js"></script>
     </head>
     <body>
+        <h1>CS313 Homepage</h1>
         <!-- <div>
             <img src="family_photo2.jpg" alt="Picture of my family" class="center">
         </div> -->
@@ -17,7 +18,5 @@
             <a class="active" href="#home">Home</a>
             <a href="#assignments">Assignments</a>
         </div>
-
-        <h1>CS313 Homepage</h1>
     </body>
 </html>
