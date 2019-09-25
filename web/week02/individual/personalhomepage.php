@@ -18,5 +18,7 @@
             <a class="active" href="#home">Home</a>
             <a href="#assignments">Assignments</a>
         </div>
+
+        <h1>CS313 Homepage</h1>
     </body>
 </html>
