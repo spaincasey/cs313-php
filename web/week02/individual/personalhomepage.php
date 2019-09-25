@@ -10,7 +10,6 @@
         <script src="personalhomepage.js"></script>
     </head>
     <body>
-        <h1>CS313 Homepage</h1>
         <!-- <div>
             <img src="family_photo2.jpg" alt="Picture of my family" class="center">
         </div> -->
