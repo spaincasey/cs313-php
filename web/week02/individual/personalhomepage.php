@@ -11,9 +11,9 @@
     </head>
     <body>
         <h1 class="center">CS313 Homepage</h1>
-        <div>
+        <!-- <div>
             <img src="family_photo2.jpg" alt="Picture of my family" class="center">
-        </div>
+        </div> -->
         <div class="topnav">
             <a class="active" href="#home">Home</a>
             <a href="#assignments">Assignments</a>
