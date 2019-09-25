@@ -11,7 +11,7 @@
     </head>
     <body>
         <div>
-            <img src="family_photo2.jpg" alt="Picture of my family">
+            <img src="family_photo2.jpg" alt="Picture of my family" class="center">
         </div>
         <div class="topnav">
             <a class="active" href="#home">Home</a>
