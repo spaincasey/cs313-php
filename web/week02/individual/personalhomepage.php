@@ -14,10 +14,7 @@
     <link rel="stylesheet" href="personalhomepage.css">
   </head>
   <body>
-    <div class="jumbotron">
-        <h1>CS313 Homepage</h1>
-    </div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -33,6 +30,9 @@
             </ul>
         </div>
     </nav>
+    <div class="jumbotron">
+        <h1>CS313 Homepage</h1>
+    </div>
     <br>
     <div class="container">
         <div class="row">
