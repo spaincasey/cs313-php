@@ -16,7 +16,7 @@
     <div class="jumbotron">
         <h1>CS313 Homepage</h1>
     </div>
-    <div class="topnav">
+    <div class="navbar navbar-default navbar-fixed-top">
         <a class="active" href="#home">Home</a>
         <a href="#assignments">Assignments</a>
     </div>
