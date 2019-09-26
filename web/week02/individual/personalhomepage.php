@@ -34,21 +34,12 @@
         <h1>CS313 Homepage</h1>
     </div>
     <br>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-4">
-                <h3>Column 1</h3>
-                <p>Lorem ipsum dolor..</p>
-            </div>
-            <div class="col-sm-4">
-                <h3>Column 2</h3>
-                <p>Lorem ipsum dolor..</p>
-            </div>
-            <div class="col-sm-4">
-                <h3>Column 3</h3>
-                <p>Lorem ipsum dolor..</p>
-            </div>
-        </div>
+    <div>
+        <h3>About</h3>
+        <p>My name is Casey Spain. I'm from Rigby, ID. I served my mission in the Pennsylvania, Philadelphia Mission. </p>
+        <p>I've been married for about 2 and a half years now. I hobbies range form music to sports and a bunch of random stuff in between.</p> 
+        <p>My favorite sport is baseball and my favorite team is the Atlanta Braves. I play guitar and sing and I'm always listening to music.</p>
+        <p> My major is Software Engineering and my biggest hope for my career is that I can have a flexible enough schedule to travel and spend time with my family. </p>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
