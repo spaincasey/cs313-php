@@ -25,7 +25,10 @@ h3 {
 .jumbotron {
     margin-bottom: 0;
     background-color: #373D51;
-    height: 300px;
-    
+    height: 300px;   
+}
+
+.mr-auto {
+    margin-right: auto !important;
 }
   
