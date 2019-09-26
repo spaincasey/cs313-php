@@ -1,5 +1,5 @@
 body {
-    background-color: grey;
+    background-color: #4B9CAB;
 }
 h1 {
     text-align: center;
@@ -16,6 +16,7 @@ h1 {
 }
 .jumbotron {
     margin-bottom: 0;
+    background-color: #C8F0EA;
 }
 
 .topnav {
