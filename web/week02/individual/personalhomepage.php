@@ -33,10 +33,7 @@
             </ul>
         </div>
     </nav>
-    <!-- <div class="topnav">
-        <a class="active" href="#home">Home</a>
-        <a href="#assignments">Assignments</a>
-    </div> -->
+    <br>
     <div class="container">
         <div class="row">
             <div class="col-sm-4">
