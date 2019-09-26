@@ -14,8 +14,7 @@ h1 {
 
 .navbar{
     margin-bottom: 0;
-    outline: #373D51;
-    outline-width: 1px;
+    border: #373D51;
 }
 .jumbotron {
     margin-bottom: 0;
