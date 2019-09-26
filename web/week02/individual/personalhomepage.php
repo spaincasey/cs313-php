@@ -34,7 +34,7 @@
         <h1>CS313 Homepage</h1>
     </div>
     <br>
-    <div>
+    <div class="text-center">
         <h3>About</h3>
         <p>My name is Casey Spain. I'm from Rigby, ID. I served my mission in the Pennsylvania, Philadelphia Mission. </p>
         <p>I've been married for about 2 and a half years now. I hobbies range form music to sports and a bunch of random stuff in between.</p> 
