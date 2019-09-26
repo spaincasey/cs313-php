@@ -1,5 +1,5 @@
 body {
-    background-color: grey;
+    background-color: green;
 }
 h1 {
     text-align: center;
@@ -15,7 +15,7 @@ h1 {
     margin-bottom: 0;
 }
 .jumbotron {
-    margin: 0;
+    margin-bottom: 0;
 }
 
 .topnav {
