@@ -29,6 +29,9 @@
             </ul>
         </div>
     </nav>
+    <div class="jumbotron">
+        <h1>CS313 Homepage</h1>
+    </div>
 </body>
 </html>
 <!-- end header -->
