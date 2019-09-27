@@ -27,7 +27,7 @@
         <br>
         <img src="Braves Game.jpg" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
     </div>
-    <div class="comment">
+    <div class="center">
         <h4>Leave a comment</h4>
         <label for="example">Enter Text
         </label>
