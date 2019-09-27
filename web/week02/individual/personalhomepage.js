@@ -1,3 +1,4 @@
+<script>
 function comment(){
     // var comments = [];   
     var txt = document.getElementById('example').value;
@@ -8,3 +9,4 @@ function comment(){
     // // document.getElementById('para').innerHTML = comments; 
     // // $( "#para" ).empty().append( txt );
 };
+</script>
