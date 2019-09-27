@@ -7,4 +7,4 @@ function comment(){
     // }
     // // document.getElementById('para').innerHTML = comments; 
     // // $( "#para" ).empty().append( txt );
-}
+};
