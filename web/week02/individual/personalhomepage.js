@@ -1,5 +1,5 @@
-window.onclick = function(e){   
-    var id =  e.target.id;   
+function comment(){   
+    var id =  document.querySelector("#example").value;   
     if (id === 'sent')  { 
         var txt = document.getElementById('example').value    
         $( "#para" ).empty().append( txt );

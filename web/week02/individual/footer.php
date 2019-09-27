@@ -20,7 +20,7 @@
         <input id="example" type="text"
                 name="Ntext" size="20">
         <input id="sent" type="submit"  
-                value="Send"> 
+                value="Send" onclick="comment()"> 
         <p id="para">      
         </p>
     </div>
