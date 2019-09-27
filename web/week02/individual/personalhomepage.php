@@ -40,6 +40,7 @@
         <br>I've been married for about 2 and a half years now. I hobbies range form music to sports and a bunch of random stuff in between.
         <br>My favorite sport is baseball and my favorite team is the Atlanta Braves. I play guitar and sing and I'm always listening to music.
         <br> My major is Software Engineering and my biggest hope for my career is that I can have a flexible enough schedule to travel and spend time with my family. </p>
+        <br>
         <img src="Braves Game.jpg" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
     </div>
 
