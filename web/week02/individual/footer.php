@@ -21,6 +21,8 @@
                 name="Ntext" size="20">
         <input id="sent" type="submit"  
                 value="Send"> 
+        <p id="para">      
+        </p>
     </div>
   </body>
 </html>
