@@ -10,15 +10,6 @@ h3 {
     text-align: center;
 }
 
-.grid-container {
-    display: grid;
-}
-
-.item1 {
-    grid-column-start: 1;
-    grid-column-end: 3;
-}
-
 .center {
     display: block;
     margin-left: auto;
