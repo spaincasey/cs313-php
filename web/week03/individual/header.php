@@ -27,7 +27,7 @@
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li class="nav-item">
-                    <img src="shopping_cart.png" class="icon" href="viewCart.php" alt="">    
+                    <button class="btn">Cart</button>   
                 </li>
             </ul>
         </div>
