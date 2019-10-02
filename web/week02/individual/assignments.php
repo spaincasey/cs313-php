@@ -30,6 +30,7 @@
           <button type="button" class="btn btn-primary">Primary</button>
         </div>
       </div>
+      <br>
       <div class="row">
         <div class="col-4 d-flex justify-content-center">
           <button type="button" class="btn btn-primary">Primary</button>
@@ -41,6 +42,7 @@
           <button type="button" class="btn btn-primary">Primary</button>
         </div>
       </div>
+      <br>
       <div class="row">
         <div class="col-4 d-flex justify-content-center">
           <button type="button" class="btn btn-primary">Primary</button>
@@ -53,6 +55,7 @@
         </div>
       </div>
     </div>
+    <br><br>
     <?php
     include "footer.php";
     ?>
