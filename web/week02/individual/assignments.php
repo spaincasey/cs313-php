@@ -19,15 +19,15 @@
     ?>
     <br>
     <div class="grid-container">
-      <div class="grid-item"><button></div>
-      <div class="grid-item"><button></div>
-      <div class="grid-item"><button></div>
-      <div class="grid-item"><button></div>
-      <div class="grid-item"><button></div>
-      <div class="grid-item"><button></div>
-      <div class="grid-item"><button></div>
-      <div class="grid-item"><button></div>
-      <div class="grid-item"><button></div>
+      <div class="grid-item"><button type="button">Click Me!</button></div>
+      <div class="grid-item"><button type="button">Click Me!</button></div>
+      <div class="grid-item"><button type="button">Click Me!</button></div>
+      <div class="grid-item"><button type="button">Click Me!</button></div>
+      <div class="grid-item"><button type="button">Click Me!</button></div>
+      <div class="grid-item"><button type="button">Click Me!</button></div>
+      <div class="grid-item"><button type="button">Click Me!</button></div>
+      <div class="grid-item"><button type="button">Click Me!</button></div>
+      <div class="grid-item"><button type="button">Click Me!</button></div>
     </div>
     <?php
     include "footer.php";
