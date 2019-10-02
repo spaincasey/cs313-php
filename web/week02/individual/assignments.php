@@ -20,7 +20,7 @@
     <br>
     <div class="container">
       <div class="row">
-        <div class="col-sm justify-content-center">
+        <div class="col-4 d-flex justify-content-center">
           <button type="button" class="btn btn-primary">Primary</button>
         </div>
         <div class="col-sm">
