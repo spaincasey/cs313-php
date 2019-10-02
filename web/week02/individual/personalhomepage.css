@@ -9,6 +9,11 @@ h1 {
 h3 {
     text-align: center;
 }
+
+.grid-container {
+    display: grid;
+}
+
 .center {
     display: block;
     margin-left: auto;
