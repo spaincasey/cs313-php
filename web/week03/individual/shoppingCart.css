@@ -15,7 +15,8 @@ h3 {
 }
 
 .icon {
-    size: 10%;
+    width: 10px;
+    height: auto;
 }
 
 .btn-primary {
