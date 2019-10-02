@@ -28,7 +28,7 @@
         </div>
     </nav>
     <div class="jumbotron">
-        <h1>CS313 Homepage</h1>
+        <h1>STORE</h1>
     </div>
 </body>
 </html>
