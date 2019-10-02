@@ -22,7 +22,12 @@
                     <a class="nav-link" href="shoppingCart.php">Browse Items <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="assignments.php">Assignments</a>
+                    <a class="nav-link" href="assignments.php">View Cart</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item">
+                    <img src="shopping_cart.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">    
                 </li>
             </ul>
         </div>
