@@ -22,41 +22,33 @@
         <a href="..\..\week03\individual\shoppingCart.php" class="btn btn-info" role="button">Shopping Cart</a>
         </div>
         <div class="col-4 d-flex justify-content-center">
-          <img src="coming_soon.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
           <button type="button" class="btn btn-primary">Assignment 2</button>
         </div>
         <div class="col-4 d-flex justify-content-center">
-          <img src="coming_soon.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
           <button type="button" class="btn btn-primary">Assignment 3</button>
         </div>
       </div>
       <br>
       <div class="row">
         <div class="col-4 d-flex justify-content-center">
-          <img src="coming_soon.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">  
           <button type="button" class="btn btn-primary">Assignment 4</button>
         </div>
         <div class="col-4 d-flex justify-content-center">
-          <img src="coming_soon.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
           <button type="button" class="btn btn-primary">Assignment 5</button>
         </div>
         <div class="col-4 d-flex justify-content-center">
-          <img src="coming_soon.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
           <button type="button" class="btn btn-primary">Assignment 6</button>
         </div>
       </div>
       <br>
       <div class="row">
         <div class="col-4 d-flex justify-content-center">
-          <img src="coming_soon.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
           <button type="button" class="btn btn-primary">Assignment 7</button>
         </div>
         <div class="col-4 d-flex justify-content-center">
-          <img src="coming_soon.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
           <button type="button" class="btn btn-primary">Assignment 8</button>
         </div>
         <div class="col-4 d-flex justify-content-center">
-          <img src="coming_soon.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
           <button type="button" class="btn btn-primary">Assignment 9</button>
         </div>
       </div>
