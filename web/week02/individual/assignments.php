@@ -21,7 +21,7 @@
     <div class="container">
       <div class="row">
         <div class="col-4 d-flex justify-content-center">
-          <button type="button" class="btn btn-primary" href="web\week03\individual\shoppingCart.php">Assignment 1</button>
+          <button type="button" class="btn btn-primary" href="web\week03\individual\shoppingCart.php" role="button">Assignment 1</button>
         </div>
         <div class="col-4 d-flex justify-content-center">
           <button type="button" class="btn btn-primary">Assignment 2</button>
