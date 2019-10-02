@@ -21,7 +21,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm">
-          <button type="button" class="btn btn-primary">Primary</button>
+          <button type="button" class="col-4 d-flex justify-content-center">Primary</button>
         </div>
         <div class="col-sm">
           <button type="button" class="btn btn-primary">Primary</button>
