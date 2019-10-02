@@ -25,7 +25,7 @@
                     <a class="nav-link" href="assignments.php">View Cart</a>
                 </li>
             </ul>
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-right icon">
                 <li class="nav-item">
                     <img src="shopping_cart.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">    
                 </li>
