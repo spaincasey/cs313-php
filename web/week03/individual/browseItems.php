@@ -19,15 +19,22 @@
     <div class="container">
       <div class="row">
         <div class="col-4 d-flex justify-content-center">
-        <a href="..\..\week03\individual\shoppingCart.php" class="btn btn-info" role="button">Shopping Cart</a>
+          <img src="coming_soon.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">  
         </div>
         <div class="col-4 d-flex justify-content-center">
-          <img src="coming_soon.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
-          <button type="button" class="btn btn-primary">Assignment 2</button>
+          <a href="..\..\week03\individual\shoppingCart.php" class="btn btn-info" role="button">Shopping Cart</a>
         </div>
         <div class="col-4 d-flex justify-content-center">
-          <img src="coming_soon.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
-          <button type="button" class="btn btn-primary">Assignment 3</button>
+          <img src="coming_soon.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">  
+        </div>
+        <div class="col-4 d-flex justify-content-center">
+          <a href="..\..\week03\individual\shoppingCart.php" class="btn btn-info" role="button">Shopping Cart</a>
+        </div>
+        <div class="col-4 d-flex justify-content-center">
+          <img src="coming_soon.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">  
+        </div>
+        <div class="col-4 d-flex justify-content-center">
+          <a href="..\..\week03\individual\shoppingCart.php" class="btn btn-info" role="button">Shopping Cart</a>
         </div>
       </div>
       <br>
