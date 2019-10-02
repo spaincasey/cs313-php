@@ -10,6 +10,10 @@ h3 {
     text-align: center;
 }
 
+.col4 {
+    margin-bottom: 15px;
+}
+
 .center {
     display: block;
     margin-left: auto;
