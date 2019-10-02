@@ -1,115 +1,46 @@
-<!DOCTYPE html>
-<html>
-​
-<head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Homepage</title>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Week 3 Team Activity</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="">
-</head>
-​
-<body>
+    <meta name="description" content="Hello World Assignment">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="personalhomepage.css">
+    <script src="personalhomepage.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="personalhomepage.css">
+  </head>
+  <body>
     <?php
-    $nameErr = $emailErr = $majorErr = $commentsErr = "";
-    $name = $email = $major = $comments = "";
-    $loactions = [];
-​
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        if (empty($_POST["name"])) {
-            $nameErr = "Name is required";
-        } else {
-            $name = test_input($_POST["name"]);
-        }
-​
-        if (empty($_POST["email"])) {
-            $emailErr = "Email is required";
-        } else {
-            $email = test_input($_POST["email"]);
-        }
-​
-        if (empty($_POST["majors"])) {
-            $majorErr = "Major is required";
-        } else {
-            $major = test_input($_POST["majors"]);
-        }
-​
-        if (empty($_POST["comments"])) {
-            $commentsErr = "Comments is required";
-        } else {
-            $comments = test_input($_POST["comments"]);
-        }
-    }
-    function test_input($data)
-    {
-        $data = trim($data);
-        $data = stripslashes($data);
-        $data = htmlspecialchars($data);
-        return $data;
-    }
+    include "header.php";
     ?>
-​
-​
-    <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]) ?>">
-        <p>Name</p>
-        <input type="text" name="name" id="name">
-        <p>Email</p>
-        <input type="text" name="email" id="email">
-        <p>Majors</p>
-        <?php
-        $majors = array(
-            1 => 'Computer Science',
-            2 => 'Web Design and Development',
-            3 => 'Computer Information Technology',
-            4 => 'Computer Engineering'
-        );
-​
-        $locations = array(
-            "na" => "North America",
-            "sa" => "South America",
-            "eu" => "Europe",
-            "as" => "Asia",
-            "au" => "Australia",
-            "af" => "Africa",
-            "an" => "Antarctica"
-        );
-​
-        foreach ($majors as $currentmajor) {
-            echo '<input type="radio" value="' . $currentmajor . '" name="majors">' . $currentmajor;
-        }
-​
-        ?>
-        <p>Locations</p>
-        <input type="checkbox" name="locations[]" value="na">North America<br />
-        <input type="checkbox" name="locations[]" value="sa">South America<br />
-        <input type="checkbox" name="locations[]" value="eu">Europe<br />
-        <input type="checkbox" name="locations[]" value="as">Asia<br />
-        <input type="checkbox" name="locations[]" value="au">Australia<br />
-        <input type="checkbox" name="locations[]" value="af">Africa<br />
-        <input type="checkbox" name="locations[]" value="an">Antarctica<br />
-​
-        <p>Comments</p>
-        <textarea name="comments" id="comments"></textarea>
-        <br />
-        <input type="submit">
-​
-​
-        <?php
-        echo "<h2>Your Input</h2>";
-        echo "Your Name: " . $name . "<br />";
-        echo "Your Email: " . $email . "<br />";
-        echo "Your Major: " . $major . "<br />";
-        echo "<br>";
-        echo $comments;
-        echo "<br />Locations:<br />";
-        foreach ($_POST['locations'] as $selected) {
-            echo $locations[$selected] . "</br>";
-        }
-        ?>
-​
-    </form>
-    <script src="" async defer></script>
-</body>
-​
+    <br>
+    <div class="text-center">
+        <h3>About</h3>
+        <p>My name is Casey Spain. I'm from Rigby, ID. I served my mission in the Pennsylvania, Philadelphia Mission. 
+        <br>I've been married for about 2 and a half years now. I hobbies range form music to sports and a bunch of random stuff in between.
+        <br>My favorite sport is baseball and my favorite team is the Atlanta Braves. I play guitar and sing and I'm always listening to music.
+        <br> My major is Software Engineering and my biggest hope for my career is that I can have a flexible enough schedule to travel and spend time with my family. </p>
+        <br>
+        <img src="braves_game.jpg" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
+    </div>
+    <br>
+    <br>
+    <?php
+    include "footer.php";
+    ?>
+    <br>
+    <br>
+    
+    <script type="text/javascript" src="personalhomepage.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>
+
+        
+    
