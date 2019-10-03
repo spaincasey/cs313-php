@@ -11,6 +11,15 @@ h3 {
     text-align: center;
 }
 
+.div1 {
+    float: left;
+}
+
+.div2 {
+    float:right;
+    text-align: right;
+}
+
 .panel-footer {
     display: block;
     margin-left: auto;

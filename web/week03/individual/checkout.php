@@ -1,3 +1,7 @@
+<?php
+// Start the session
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,27 +43,55 @@
   </div>
 </nav>
 
+<?php
+class Item {
+  // constructor
+  public function __construct($name, $price, $image) {
+      $this->name = $name;
+      $this->price = $price;
+      $this->image = $image;
+  }
+}
+$items=array();
+
+for ($x = 0; $x <= 9; $x++) {
+  $name = "Item " + $x;
+  $price = "$15.00"
+  $image = "T-shirt.jpg"
+  
+  $newItem = new Item($name, $price, $image);
+  array_push($newItem);
+}
+foreach($items as $key=>$value){
+?>
+  <div class="panel-heading"><div class="panel-title pull-left">T-Shirt</div><div class=" panel-title pull-right">$15.00</div><br></div>
+  <div class="panel-body"><img src="images\T-shirt.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+  <div class="panel-footer"><input type="submit" name="select" value="Add to Cart" onclick="select()"/></div>
+<?php
+}
+?>
+
 <div class="container">    
   <div class="row">
     <div class="col-sm-4">
       <div class="panel panel-primary">
-        <div class="panel-heading">T-Shirt</div>
+        <div class="panel-heading"><div class="panel-title pull-left">T-Shirt</div><div class=" panel-title pull-right">$15.00</div><br></div>
         <div class="panel-body"><img src="images\T-shirt.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer"><button class='btn btn-center'>Add to Cart</button></div>
+        <div class="panel-footer"><input type="submit" name="select" value="Add to Cart" onclick="select()"/></div>
       </div>
     </div>
     <div class="col-sm-4"> 
       <div class="panel panel-primary">
-        <div class="panel-heading">T-Shirt</div>
+        <div class="panel-heading"><div class="panel-title pull-left">T-Shirt</div><div class=" panel-title pull-right">$15.00</div><br></div>
         <div class="panel-body"><img src="images\T-shirt.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+        <div class="panel-footer"><input type="submit" name="select" value="Add to Cart" onclick="select()"/></div>
       </div>
     </div>
     <div class="col-sm-4"> 
       <div class="panel panel-primary">
-        <div class="panel-heading">T-Shirt</div>
+        <div class="panel-heading"><div class="panel-title pull-left">T-Shirt</div><div class=" panel-title pull-right">$15.00</div><br></div>
         <div class="panel-body"><img src="images\T-shirt.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+        <div class="panel-footer"><input type="submit" name="select" value="Add to Cart" onclick="select()"/></div>
       </div>
     </div>
   </div>
@@ -69,23 +101,23 @@
   <div class="row">
     <div class="col-sm-4">
       <div class="panel panel-primary">
-        <div class="panel-heading">T-Shirt</div>
+        <div class="panel-heading"><div class="panel-title pull-left">T-Shirt</div><div class=" panel-title pull-right">$15.00</div><br></div>
         <div class="panel-body"><img src="images\T-shirt.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+        <div class="panel-footer"><input type="submit" name="select" value="Add to Cart" onclick="select()"/></div>
       </div>
     </div>
     <div class="col-sm-4"> 
       <div class="panel panel-primary">
-        <div class="panel-heading">T-Shirt</div>
+        <div class="panel-heading"><div class="panel-title pull-left">T-Shirt</div><div class=" panel-title pull-right">$15.00</div><br></div>
         <div class="panel-body"><img src="images\T-shirt.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+        <div class="panel-footer"><input type="submit" name="select" value="Add to Cart" onclick="select()"/></div>
       </div>
     </div>
     <div class="col-sm-4"> 
       <div class="panel panel-primary">
-        <div class="panel-heading">T-Shirt</div>
+        <div class="panel-heading"><div class="panel-title pull-left">T-Shirt</div><div class=" panel-title pull-right">$15.00</div><br></div>
         <div class="panel-body"><img src="images\T-shirt.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+        <div class="panel-footer"><input type="submit" name="select" value="Add to Cart" onclick="select()"/></div>
       </div>
     </div>
   </div>
@@ -98,6 +130,18 @@
     <button type="button" class="btn btn-danger">Sign Up</button>
   </form>
 </footer>
+
+<?php
+// remove all session variables
+function select(){
+    echo "The select function is called.";
+}
+            
+session_unset();
+
+// destroy the session
+session_destroy();
+?>
 
 </body>
 </html>
