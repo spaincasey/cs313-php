@@ -45,7 +45,7 @@
       <div class="panel panel-primary">
         <div class="panel-heading">T-Shirt</div>
         <div class="panel-body"><img src="images\T-shirt.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer"><a href="" class="btn btn-info" role="button">Add to Cart</a></div>
+        <div class="panel-footer justify-content-center"><a href="" class="btn btn-info" role="button">Add to Cart</a></div>
       </div>
     </div>
     <div class="col-sm-4"> 
