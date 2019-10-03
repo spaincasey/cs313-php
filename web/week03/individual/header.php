@@ -22,7 +22,7 @@
                     <a class="nav-link" href="shoppingCart.php">Browse Items <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="assignments.php">View Cart</a>
+                    <a class="nav-link" href="checkout.php">View Cart</a>
                 </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
