@@ -22,10 +22,10 @@
           <img src="images\T-shirt.jpg" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
         </div>
         <div class="col-4 d-flex justify-content-center">
-          <img src="coming_soon.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
+          <img src="images\T-shirt.jpg" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
         </div>
         <div class="col-4 d-flex justify-content-center">
-          <img src="coming_soon.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
+          <img src="images\T-shirt.jpg" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
         </div>
       </div>
       <div class="row">
@@ -43,13 +43,13 @@
       <br>
       <div class="row">
         <div class="col-4 d-flex justify-content-center">
-          <img src="coming_soon.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
+          <img src="images\T-shirt.jpg" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
         </div>
         <div class="col-4 d-flex justify-content-center">
-          <img src="coming_soon.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
+          <img src="images\T-shirt.jpg" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
         </div>
         <div class="col-4 d-flex justify-content-center">
-          <img src="coming_soon.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
+          <img src="images\T-shirt.jpg" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
         </div>
       </div>
       <div class="row">
@@ -66,13 +66,13 @@
       <br>
       <div class="row">
         <div class="col-4 d-flex justify-content-center">
-          <img src="coming_soon.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
+          <img src="images\T-shirt.jpg" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
         </div>
         <div class="col-4 d-flex justify-content-center">
-          <img src="coming_soon.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
+          <img src="images\T-shirt.jpg" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
         </div>
         <div class="col-4 d-flex justify-content-center">
-          <img src="coming_soon.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
+          <img src="images\T-shirt.jpg" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
         </div>
       </div>
       <div class="row">
