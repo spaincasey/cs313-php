@@ -24,34 +24,34 @@
         <a href="..\..\week03\individual\browseItems.php" class="btn btn-info" role="button">Shopping Cart</a>
         </div>
         <div class="col-4 d-flex justify-content-center">
-        <a href="..\..\week03\individual\browseItems.php" class="btn btn-info" role="button">Shopping Cart</a>
+        <a href="" class="btn btn-info" role="button">Assign2</a>
         </div>
         <div class="col-4 d-flex justify-content-center">
-        <a href="..\..\week03\individual\browseItems.php" class="btn btn-info" role="button">Shopping Cart</a>
-        </div>
-      </div>
-      <br>
-      <div class="row">
-        <div class="col-4 d-flex justify-content-center">
-        <a href="..\..\week03\individual\browseItems.php" class="btn btn-info" role="button">Shopping Cart</a>
-        </div>
-        <div class="col-4 d-flex justify-content-center">
-        <a href="..\..\week03\individual\browseItems.php" class="btn btn-info" role="button">Shopping Cart</a>
-        </div>
-        <div class="col-4 d-flex justify-content-center">
-        <a href="..\..\week03\individual\browseItems.php" class="btn btn-info" role="button">Shopping Cart</a>
+        <a href="" class="btn btn-info" role="button">Assign3</a>
         </div>
       </div>
       <br>
       <div class="row">
         <div class="col-4 d-flex justify-content-center">
-        <a href="..\..\week03\individual\browseItems.php" class="btn btn-info" role="button">Shopping Cart</a>
+        <a href="" class="btn btn-info" role="button">Assign4</a>
         </div>
         <div class="col-4 d-flex justify-content-center">
-        <a href="..\..\week03\individual\browseItems.php" class="btn btn-info" role="button">Shopping Cart</a>
+        <a href="" class="btn btn-info" role="button">Assign5</a>
         </div>
         <div class="col-4 d-flex justify-content-center">
-        <a href="..\..\week03\individual\browseItems.php" class="btn btn-info" role="button">Shopping Cart</a>
+        <a href="" class="btn btn-info" role="button">Assign6</a>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-4 d-flex justify-content-center">
+        <a href="" class="btn btn-info" role="button">Assign7</a>
+        </div>
+        <div class="col-4 d-flex justify-content-center">
+        <a href="" class="btn btn-info" role="button">Assign8</a>
+        </div>
+        <div class="col-4 d-flex justify-content-center">
+        <a href="" class="btn btn-info" role="button">Assign9</a>
         </div>
       </div>
     </div>
