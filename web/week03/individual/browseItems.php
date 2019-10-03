@@ -30,7 +30,7 @@
       </div>
       <div class="row">
         <div class="col-4 d-flex justify-content-center">
-          <a href="..\..\week03\individual\shoppingCart.php" class="btn btn-info" role="button">Add to Cart</a>
+          <a href="" class="btn btn-info" role="button">Add to Cart</a>
         </div>
         <div class="col-4 d-flex justify-content-center">
           <a href="..\..\week03\individual\shoppingCart.php" class="btn btn-info" role="button">Add to Cart</a>
