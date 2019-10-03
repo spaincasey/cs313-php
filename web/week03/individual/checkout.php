@@ -7,7 +7,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <style>
+  <link rel="stylesheet" href="shoppingCart.css">
+  <!-- <style>
     /* Remove the navbar's default rounded borders and increase the bottom margin */ 
     .navbar {
       margin-bottom: 50px;
@@ -24,7 +25,7 @@
       background-color: #f2f2f2;
       padding: 25px;
     }
-  </style>
+  </style> -->
 </head>
 <body>
 
