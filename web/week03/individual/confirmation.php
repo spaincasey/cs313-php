@@ -1,3 +1,6 @@
+<?php
+$_SESSION['cart']=isset($_SESSION['cart']) ? $_SESSION['cart'] : array();
+?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -12,55 +15,9 @@
     <link rel="stylesheet" href="..\..\week02\individual\personalhomepage.css">
   </head>
   <body>
-    <?php
-    include "header.php";
-    ?>
-    <br>
-    <div class="container">
-      <div class="row">
-        <div class="col-4 d-flex justify-content-center">
-        <a href="..\..\week03\individual\shoppingCart.php" class="btn btn-info" role="button">Shopping Cart</a>
-        </div>
-        <div class="col-4 d-flex justify-content-center">
-          <button type="button" class="btn btn-primary">Assignment 2</button>
-        </div>
-        <div class="col-4 d-flex justify-content-center">
-          <button type="button" class="btn btn-primary">Assignment 3</button>
-        </div>
-      </div>
-      <br>
-      <div class="row">
-        <div class="col-4 d-flex justify-content-center">
-          <button type="button" class="btn btn-primary">Assignment 4</button>
-        </div>
-        <div class="col-4 d-flex justify-content-center">
-          <button type="button" class="btn btn-primary">Assignment 5</button>
-        </div>
-        <div class="col-4 d-flex justify-content-center">
-          <button type="button" class="btn btn-primary">Assignment 6</button>
-        </div>
-      </div>
-      <br>
-      <div class="row">
-        <div class="col-4 d-flex justify-content-center">
-          <button type="button" class="btn btn-primary">Assignment 7</button>
-        </div>
-        <div class="col-4 d-flex justify-content-center">
-          <button type="button" class="btn btn-primary">Assignment 8</button>
-        </div>
-        <div class="col-4 d-flex justify-content-center">
-          <button type="button" class="btn btn-primary">Assignment 9</button>
-        </div>
-      </div>
-    </div>
-    <br><br>
-    <br>
-    <br>
-    <?php
-    include "footer.php";
-    ?>
-    <br>
-    <br>
+  <?php
+
+  ?>
     
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
