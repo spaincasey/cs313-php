@@ -1,6 +1,6 @@
 <?php
-    include 'header.php';
-   session_start();
+include 'item.php';
+session_start();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -18,7 +18,6 @@
 <?php
 
 array_push($_SESSION['cart'], $_SESSION['items'][$_GET['product']]);
-$message = "Item Added to Cart";
 
 header("Location: browseItems.php");
 die();

@@ -1,6 +1,6 @@
 <?php
 // Start the session
-include 'header.php';
+include 'item.php';
 session_start();
 ?>
 <!DOCTYPE html>
@@ -44,24 +44,7 @@ session_start();
   </div>
 </nav>
 <?php
-// $size = sizeof($_SESSION['cart']);
-// for ($x = 0; $x < $size; $x++) {
-//   // $id = $_SESSION['items'][$x];
-//   if($x % 3 == 0)
-//   {
-//     if($x != 0)
-//     {
-//       echo"</div></div>";
-//     }
-//     echo"<div class='container'>";
-//     echo"<div class='row'>";
-//   }
-//   echo"<div class='col-sm-4'>";
-//   echo"<div class='panel panel-primary'>";
-//     echo"<div class='panel-heading'><div class='panel-title pull-left'>{$_SESSION['cart'][$x]->name}</div><div class='panel-title pull-right'>{$_SESSION['cart'][$x]->price}</div><br></div>";
-//     echo"<div class='panel-body'><img src='{$_SESSION['cart'][$x]->image}' class='img-responsive' style='width:100%' alt='Image'></div>";
-//     echo"<div class='panel-footer'><form action='addtocart.php' method='get'><input type='hidden' name='product' value='{$x}'></input><input type='submit' name='{$_SESSION['cart'][$x]->button}' value='Add to Cart'/></form></div></div></div>";
-// }
+
 $it = 0;
 echo"<div class='container'>";
 echo"<div class='row'>";

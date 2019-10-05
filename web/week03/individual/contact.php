@@ -1,5 +1,6 @@
 <?php
 // Start the session
+include 'item.php';
 session_start();
 ?>
 <!DOCTYPE html>
