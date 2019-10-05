@@ -1,46 +1,27 @@
 <?php
+    include 'header.php';
    session_start();
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Shopping Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="shoppingCart.css">
+</head>
+<body>
 
 <?php
-// foreach($_SESSION['items'] as $product) {
-//     echo($product->name);
-//   }
-echo '<pre>';
-var_dump($_SESSION);
-echo '</pre>';
-$_GET['item']
-//var_dump($_GET['item']);
-// echo "$_GET['item']"
-// $name = $_GET['item']->name;
-// $price = $_GET['item']->price;
-// $image = $_GET['item']->image;
-// $button = $_GET['item']->button;
 
-//$newItem = new Item($name, $price, $image, $button);
-//array_push($_SESSION['cart'], $newItem);
+array_push($_SESSION['cart'], $_SESSION['items'][$_GET['product']]);
+$message = "Item Added to Cart";
 
-// array_push($_SESSION['cart'], $_GET['item']);
-// $_SESSION['cart'][] = $_GET['item'];
-// header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
-// header("Cache-Control: post-check=0, pre-check=0", false);
-// header("Pragma: no-cache");
-// if (isset($_SESSION['cart'])) {
-//     $name = $_GET['item->name'];
-//     $price = $_GET['item->price'];
-//     $image = $_GET['item->image'];
-//     $button = $_GET['item->button'];
-    
-//     $newItem = new Item($name, $price, $image, $button);
-//     array_push($_SESSION['cart'], $newItem);
-// }
-// else {
-//     $_SESSION['cart'] = array();
-//     $_SESSION['cart'][] = $_GET['item'];
-// }
-//echo($_SESSION['cart']);
-// Useful for debugging
-//session_destroy();
-//header("Location: shophome.php");
-//die();
+header("Location: browseItems.php");
+die();
 ?>
+</body>
+</html>

@@ -11,6 +11,14 @@ h3 {
     text-align: center;
 }
 
+.right {
+    float: right;
+}
+.thumbnail {
+    width: 10px;
+    height: auto;
+}
+
 .div1 {
     float: left;
 }
