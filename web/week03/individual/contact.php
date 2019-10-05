@@ -5,7 +5,7 @@ session_start();
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Shopping Home</title>
+  <title>Contact</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -17,7 +17,7 @@ session_start();
 
 <div class="jumbotron">
   <div class="container text-center">
-    <h1>Shop Home</h1>      
+    <h1>Contact</h1>      
   </div>
 </div>
 
@@ -33,8 +33,8 @@ session_start();
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="contact.php">Contact</a></li>
+        <li><a href="shophome.php">Home</a></li>
+        <li class="active"><a href="">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="confirmation.php"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
@@ -42,62 +42,6 @@ session_start();
     </div>
   </div>
 </nav>
-
-<?php
-class Item {
-  // constructor
-  public function __construct($name, $price, $image, $button) {
-      $this->name = $name;
-      $this->price = $price;
-      $this->image = $image;
-      $this->button = $button;
-  }
-}
-$_SESSION['items']=array();
-if(empty($_SESSION['cart']))
-  $_SESSION['cart'] = array();
-
-$_session['items'] = $_POST;
-
-for ($x = 1; $x <= 9; $x++) {
-  $name = "Item {$x}";
-  $price = "$15.00";
-  $image = "images\T-shirt.jpg";
-  $button = "Button {$x}";
-  
-  $newItem = new Item($name, $price, $image, $button);
-  array_push($_SESSION['items'], $newItem);
-}
-
-$it = 0;
-// echo count($_SESSION['myproducts'])
-foreach($_SESSION['items'] as $item){
-  if($it % 3 == 0)
-  {
-    if($it != 0)
-    {
-      echo"</div></div>";
-    }
-    echo"<div class='container'>";
-    echo"<div class='row'>";
-  }
-  echo"<div class='col-sm-4'>";
-  echo"<div class='panel panel-primary'>";
-    echo"<div class='panel-heading'><div class='panel-title pull-left'>{$item->name}</div><div class='panel-title pull-right'>{$item->price}</div><br></div>";
-    echo"<div class='panel-body'><img src='{$item->image}' class='img-responsive' style='width:100%' alt='Image'></div>";
-    echo"<div class='panel-footer'><form action='addtocart.php' method='get'><input type='submit' name='{$item->button}' value='Add to Cart'/></form></div></div></div>";
-  $it++;
-}
-if($it % 3 != 0)
-{
-  echo"</div>";
-}
-
-foreach($_SESSION['cart'] as $product) {
-  echo"{$product}";
-}
-
-?>
 
 <footer class="container-fluid text-center">
   <p>Online Store Copyright</p>  
