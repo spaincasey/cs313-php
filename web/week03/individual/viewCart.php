@@ -6,7 +6,7 @@ session_start();
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Checkout</title>
+  <title>View Cart</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -18,7 +18,7 @@ session_start();
 
 <div class="jumbotron">
   <div class="container text-center">
-    <h1>Checkout</h1>      
+    <h1>View Cart</h1>      
   </div>
 </div>
 
@@ -35,10 +35,13 @@ session_start();
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li><a href="browseItems.php">Home</a></li>
-        <li><a href="contact.php">Contact</a></li>
+        <li><a href="contact.php">About</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+        <?php 
+        $size = sizeof($_SESSION['cart']);
+        echo "<li><a href='viewCart.php'><span class='glyphicon glyphicon-shopping-cart'></span> Cart({$size})</a></li>";
+        ?>
       </ul>
     </div>
   </div>
@@ -55,7 +58,8 @@ echo"<div class='panel-body'>";
 foreach($_SESSION['cart'] as $item){
   echo"<img src='{$item->image}' class='icon' alt='Image'>{$item->name} <p class='pull-right'>$";
   echo $english_format_number = number_format($item->price, 2, '.', '');
-  echo "</p><form action='addtocart.php' method='get'><input type='hidden' name='product'></input><input type='submit' value='Remove Item'/></form><hr>";
+  echo "</p><form action='removeFromCart.php' method='get'><input type='hidden' name='product' value='{$it}'></input><input type='submit' value='Remove Item'/></form><hr>";
+  $it++;
 }
 echo"</div><div class='panel-footer'><a href='checkout.php' class='btn btn-info' role='button'>Checkout</a></div></div></div></div></div>";
 

@@ -6,7 +6,7 @@ session_start();
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Shopping Home</title>
+  <title>Checkout</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -18,7 +18,7 @@ session_start();
 
 <div class="jumbotron">
   <div class="container text-center">
-    <h1>Shop Home</h1>      
+    <h1>Checkout</h1>      
   </div>
 </div>
 
@@ -35,10 +35,13 @@ session_start();
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li><a href="browseItems.php">Home</a></li>
-        <li><a href="contact.php">Contact</a></li>
+        <li><a href="contact.php">About</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="viewCart.php"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+        <?php 
+        $size = sizeof($_SESSION['cart']);
+        echo "<li><a href='viewCart.php'><span class='glyphicon glyphicon-shopping-cart'></span> Cart({$size})</a></li>";
+        ?>
       </ul>
     </div>
   </div>

@@ -2,6 +2,8 @@
 // Start the session
 include 'item.php';
 session_start();
+if(empty($_SESSION['cart']))
+  $_SESSION['cart'] = array();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -38,7 +40,10 @@ session_start();
         <li><a href="contact.php">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="viewCart.php"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+        <?php 
+        $size = sizeof($_SESSION['cart']);
+        echo "<li><a href='viewCart.php'><span class='glyphicon glyphicon-shopping-cart'></span> Cart({$size})</a></li>";
+        ?>
       </ul>
     </div>
   </div>
@@ -46,19 +51,21 @@ session_start();
 
 <?php
 $_SESSION['items']=array();
-if(empty($_SESSION['cart']))
-  $_SESSION['cart'] = array();
 
 $_session['items'] = $_POST;
-
+$names = array("Black Shirt", "Blue Shirt", "Grey Shirt", "Light Blue Shirt", "Lime Green Shirt", "Maroon Shirt", "Orange Shirt", "White Shirt", "Yellow Shirt");
+$images = array("images\black.jpg", "images\blue.jpg", "images\grey.jpg", "images\ligh_blue.jpg", "images\lime_green.jpg", "images\maroon.jpg", "images\orange.jpg", "images\white.jpg", "images\yellow.jpg");
+$y = 0;
 for ($x = 1; $x <= 9; $x++) {
-  $name = "Item {$x}";
+  
+  $name = $names[$y];
   $price = 15.00;
-  $image = "images\T-shirt.jpg";
+  $image = $images[$y];
   $button = "Button {$x}";
   
   $newItem = new Item($name, $price, $image, $button);
   array_push($_SESSION['items'], $newItem);
+  $y++;
 }
 
 for ($x = 0; $x < 9; $x++) {

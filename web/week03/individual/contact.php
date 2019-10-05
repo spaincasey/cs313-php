@@ -18,7 +18,7 @@ session_start();
 
 <div class="jumbotron">
   <div class="container text-center">
-    <h1>Contact</h1>      
+    <h1>About</h1>      
   </div>
 </div>
 
@@ -35,14 +35,26 @@ session_start();
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li><a href="browseItems.php">Home</a></li>
-        <li class="active"><a href="">Contact</a></li>
+        <li class="active"><a href="">About</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="viewCart.php"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+        <?php 
+        $size = sizeof($_SESSION['cart']);
+        echo "<li><a href='viewCart.php'><span class='glyphicon glyphicon-shopping-cart'></span> Cart({$size})</a></li>";
+        ?>
       </ul>
     </div>
   </div>
 </nav>
+<div class="text-center">
+    <h3>About</h3>
+    <p>My name is Casey Spain. I'm from Rigby, ID. I served my mission in the Pennsylvania, Philadelphia Mission. 
+    <br>I've been married for about 2 and a half years now. I hobbies range form music to sports and a bunch of random stuff in between.
+    <br>My favorite sport is baseball and my favorite team is the Atlanta Braves. I play guitar and sing and I'm always listening to music.
+    <br> My major is Software Engineering and my biggest hope for my career is that I can have a flexible enough schedule to travel and spend time with my family. </p>
+    <br>
+    <img src="images\braves_game.jpg" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
+</div>
 
 <footer class="container-fluid text-center">
   <p>Online Store Copyright</p>  
