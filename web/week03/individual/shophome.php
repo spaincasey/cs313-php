@@ -53,7 +53,7 @@ class Item {
       $this->button = $button;
   }
 }
-$items=array();
+$_SESSION['items']=array();
 
 for ($x = 1; $x <= 9; $x++) {
   $name = "Item {$x}";
@@ -62,10 +62,11 @@ for ($x = 1; $x <= 9; $x++) {
   $button = "Button {$x}";
   
   $newItem = new Item($name, $price, $image, $button);
-  array_push($items, $newItem);
+  array_push($_SESSION['items'], $newItem);
 }
 $it = 0;
-foreach($items as $item){
+// echo count($_SESSION['myproducts'])
+foreach($_SESSION['items'] as $item){
   if($it % 3 == 0)
   {
     if($it != 0)
@@ -79,7 +80,7 @@ foreach($items as $item){
   echo("<div class='panel panel-primary'>");
     echo("<div class='panel-heading'><div class='panel-title pull-left'>{$item->name}</div><div class='panel-title pull-right'>{$item->price}</div><br></div>");
     echo("<div class='panel-body'><img src='{$item->image}' class='img-responsive' style='width:100%' alt='Image'></div>");
-    echo("<div class='panel-footer'><input type='submit' name='{$item->button}' value='Add to Cart' onclick='select()'/></div></div></div>");
+    echo("<div class='panel-footer'><form action='adtocart.php' method='post'><input type='submit' name='{$item->button}' value='Add to Cart'/></form></div></div></div>");
   $it++;
 }
 if($it % 3 != 0)
@@ -91,7 +92,6 @@ function select(){
     echo("<p>The select function is called.</p>");
 }
 ?>
-
 
 <footer class="container-fluid text-center">
   <p>Online Store Copyright</p>  
