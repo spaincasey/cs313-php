@@ -24,7 +24,7 @@
         <a href="..\..\week03\individual\browseItems.php" class="btn btn-info" role="button">Shopping Cart</a>
         </div>
         <div class="col-4 d-flex justify-content-center">
-        <a href="" class="btn btn-info" role="button">Assign2</a>
+        <a href="..\..\week05\individual\HomePage.php" class="btn btn-info" role="button">Database Access</a>
         </div>
         <div class="col-4 d-flex justify-content-center">
         <a href="" class="btn btn-info" role="button">Assign3</a>
