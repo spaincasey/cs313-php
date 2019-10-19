@@ -51,8 +51,8 @@ $db = get_db();
 
 <?php
 
-// $statement = $db->prepare("SELECT * FROM Job");
-// $statement->execute();
+$statement = $db->prepare("SELECT * FROM Job");
+$statement->execute();
 // // Go through each result
 // while ($row = $statement->fetch(PDO::FETCH_ASSOC))
 // {
