@@ -51,7 +51,7 @@ $db = get_db();
 
 <?php
 
-$statement = $db->prepare("SELECT * FROM Job");
+$statement = $db->prepare("SELECT description, image FROM Job");
 $statement->execute();
 // Go through each result
 while ($row = $statement->fetch(PDO::FETCH_ASSOC))
