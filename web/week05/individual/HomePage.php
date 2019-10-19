@@ -1,5 +1,5 @@
 <?php
-// Start the session
+
 require "dbConnect.php";
 $db = get_db();
 ?>
@@ -60,7 +60,7 @@ while ($row = $statement->fetch(PDO::FETCH_ASSOC))
 	$description = $row['description'];
 	$image = $row['image'];
   echo "<p>$description<p>";
-  echo "<img src='$image' class='img-responsive' style='width:100%' alt='Image'>";
+  echo "<img src='$image' class='img-responsive' alt='Image'>";
 }
 ?>
 
@@ -74,11 +74,6 @@ while ($row = $statement->fetch(PDO::FETCH_ASSOC))
     <button type="button" class="btn btn-danger">Sign Up</button>
   </form>
 </footer>
-
-<?php
-// session_unset();
-// session_destroy();
-?>
 
 </body>
 </html>
