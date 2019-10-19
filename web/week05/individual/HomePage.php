@@ -51,17 +51,17 @@ $db = get_db();
 
 <?php
 
-$statement = $db->prepare("SELECT * FROM Job");
-$statement->execute();
-// Go through each result
-while ($row = $statement->fetch(PDO::FETCH_ASSOC))
-{
-	$category = $row['category'];
-	$description = $row['description'];
-	$image = $row['image'];
-  echo "<p>$description<p>";
-  echo "<img src=$image class='img-responsive' style='width:100%' alt='Image'>"
-}
+// $statement = $db->prepare("SELECT * FROM Job");
+// $statement->execute();
+// // Go through each result
+// while ($row = $statement->fetch(PDO::FETCH_ASSOC))
+// {
+// 	$category = $row['category'];
+// 	$description = $row['description'];
+// 	$image = $row['image'];
+//   echo "<p>$description<p>";
+//   echo "<img src=$image class='img-responsive' style='width:100%' alt='Image'>"
+// }
 ?>
 
 
