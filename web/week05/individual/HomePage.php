@@ -45,7 +45,7 @@ $db = get_db();
   </div>
 </nav>
 
-<div>
+<div class='jobs'>
 
 <h1>Database of Jobs</h1>
 
