@@ -60,7 +60,7 @@ while ($row = $statement->fetch(PDO::FETCH_ASSOC))
 	$description = $row['description'];
 	$image = $row['image'];
   echo "<p>$description<p>";
-  echo "<img src='$image' class='img-responsive' style='width:100%' alt='Image'>"
+  echo "<img src=$image class='img-responsive' style='width:100%' alt='Image'>"
 }
 ?>
 
