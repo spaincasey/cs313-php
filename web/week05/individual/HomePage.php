@@ -18,7 +18,7 @@ $db = get_db();
 
 <div class="jumbotron">
   <div class="container text-center">
-    <h1>Shop Home</h1>      
+    <h1>Construction Home</h1>      
   </div>
 </div>
 
