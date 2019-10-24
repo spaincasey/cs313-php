@@ -1,7 +1,7 @@
 <?php
 
-require "dbConnect.php";
-$db = get_db();
+// require "dbConnect.php";
+// $db = get_db();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -38,12 +38,46 @@ $db = get_db();
         <li><a href="contact.php">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <?php 
-        ?>
+        <li>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            Launch demo modal
+          </button>
+        </li>
       </ul>
     </div>
   </div>
 </nav>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Sign Up</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <label for="psw-repeat"><b>Repeat Password</b></label>
+        <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+        <label>
+          <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+        </label>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Sign Up</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 <div class='jobs'>
 
@@ -51,17 +85,17 @@ $db = get_db();
 
 <?php
 
-$statement = $db->prepare("SELECT description, image FROM Job");
-$statement->execute();
-// Go through each result
-while ($row = $statement->fetch(PDO::FETCH_ASSOC))
-{
-	// $category = $row['category'];
-	$description = $row['description'];
-	$image = $row['image'];
-  echo "<h3>$description<h3>";
-  echo "<img src='$image' class='img-responsive' alt='Image'>";
-}
+// $statement = $db->prepare("SELECT description, image FROM Job");
+// $statement->execute();
+// // Go through each result
+// while ($row = $statement->fetch(PDO::FETCH_ASSOC))
+// {
+// 	// $category = $row['category'];
+// 	$description = $row['description'];
+// 	$image = $row['image'];
+//   echo "<h3>$description<h3>";
+//   echo "<img src='$image' class='img-responsive' alt='Image'>";
+// }
 ?>
 
 
