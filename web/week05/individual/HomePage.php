@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+<?php
+
+require "dbConnect.php";
+$db = get_db();
+?>
   <title>Home Page</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,39 +13,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="HomePage.css">
-  <script type="text/javascript">
-    window.onload = function() {
-        read();
-        // var xmlhttp = new XMLHttpRequest();
-        // xmlhttp.onreadystatechange = function() {
-        //     if (this.readyState == 4 && this.status == 200) {
-        //         document.getElementById("txtHint").innerHTML = this.responseText;
-        //     }
-        // };
-        // xmlhttp.open("GET", "loadData.php?q=" + str, true);
-        // xmlhttp.send();
-    }
-
-    /********************************************************
-	* AJAX request to read the text file.
-	*********************************************************/
-	function read() {
-		//alert("in the read function");
-		var results = document.getElementById("results");
-		var xhttp = new XMLHttpRequest();
-		xhttp.onreadystatechange = function() {
-			if (this.readyState == 4 && this.status == 200) {
-                data = this.responseText;
-                alert(data);
-                results += data;
-				// build(data);
-			}
-		};
-		xhttp.open("POST", "loadData.php" , true);
-		xhttp.send();
-		//alert("End of read function");
-	}
-
+  <!-- <script type="text/javascript">
   function addUser() {
     $('.button').click(function() {
       $.ajax({
@@ -54,7 +26,7 @@
     });
 
   }
-  </script>
+  </script> -->
 </head>
 <body>
 <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="false">
@@ -110,14 +82,31 @@
 <div class='jobs'>
 
 <h1>Database of Jobs</h1>
-<div id="results">
 
-</div>
+<?php
+
+$statement = $db->prepare("SELECT description, image FROM Job");
+$statement->execute();
+// Go through each result
+while ($row = $statement->fetch(PDO::FETCH_ASSOC))
+{
+	// $category = $row['category'];
+	$description = $row['description'];
+	$image = $row['image'];
+  echo "<h3>$description<h3>";
+  echo "<img src='$image' class='img-responsive' alt='Image'>";
+}
+?>
 
 
 </div>
 
 <footer class="container-fluid text-center">
+  <p>Online Store Copyright</p>  
+  <form class="form-inline">Get deals:
+    <input type="email" class="form-control" size="50" placeholder="Email Address">
+    <button type="button" class="btn btn-danger">Sign Up</button>
+  </form>
 </footer>
 
 </body>
