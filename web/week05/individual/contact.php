@@ -12,7 +12,7 @@ session_start();
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="shoppingCart.css">
+  <link rel="stylesheet" href="HomePage.css">
 </head>
 <body>
 
@@ -34,14 +34,8 @@ session_start();
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li><a href="browseItems.php">Home</a></li>
+        <li><a href="HomePage.html">Home</a></li>
         <li class="active"><a href="">About</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <?php 
-        $size = sizeof($_SESSION['cart']);
-        echo "<li><a href='viewCart.php'><span class='glyphicon glyphicon-shopping-cart'></span> Cart({$size})</a></li>";
-        ?>
       </ul>
     </div>
   </div>
@@ -53,16 +47,8 @@ session_start();
     <br>My favorite sport is baseball and my favorite team is the Atlanta Braves. I play guitar and sing and I'm always listening to music.
     <br> My major is Software Engineering and my biggest hope for my career is that I can have a flexible enough schedule to travel and spend time with my family. </p>
     <br>
-    <img src="images\braves_game.jpg" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
 </div>
 
-<footer class="container-fluid text-center">
-  <p>Online Store Copyright</p>  
-  <form class="form-inline">Get deals:
-    <input type="email" class="form-control" size="50" placeholder="Email Address">
-    <button type="button" class="btn btn-danger">Sign Up</button>
-  </form>
-</footer>
 
 <?php
 // session_unset();
