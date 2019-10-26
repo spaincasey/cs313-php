@@ -14,3 +14,4 @@ INSERT INTO Job(category, description, image)VALUES((SELECT id from Category WHE
 SELECT * FROM Job JOIN Category USING(id) WHERE cat_name = 'demolition';
 
 INSERT INTO User_app(email)VALUES();
+DELETE FROM User_app WHERE email='[object HTMLInputElement]';
