@@ -42,8 +42,8 @@
 
   function addUser() {
     var str = document.getElementById("email");
-		var xhttps = new XMLHttpRequest();
-		xhttps.onreadystatechange = function() {
+		var xhttp = new XMLHttpRequest();
+		xhttp.onreadystatechange = function() {
 			if (this.readyState == 4 && this.status == 200) {
                 // data = this.responseText;
                 // document.getElementById("users").innerHTML = data;
