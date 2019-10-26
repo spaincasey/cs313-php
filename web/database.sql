@@ -12,3 +12,5 @@ INSERT INTO Job(category, description, image)VALUES((SELECT id from Category WHE
 INSERT INTO Job(category, description, image)VALUES((SELECT id from Category WHERE cat_name='demolition'), 'Tore out insulation under Rexburg home', 'demolition1.jpg');
 
 SELECT * FROM Job JOIN Category USING(id) WHERE cat_name = 'demolition';
+
+INSERT INTO User_app(email)VALUES();

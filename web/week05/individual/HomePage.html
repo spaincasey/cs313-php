@@ -45,8 +45,8 @@
 		var xhttps = new XMLHttpRequest();
 		xhttp.onreadystatechange = function() {
 			if (this.readyState == 4 && this.status == 200) {
-                // data = this.responseText;
-                // document.getElementById("results").innerHTML = data;
+                data = this.responseText;
+                document.getElementById("users").innerHTML = data;
 			}
 		};
 		xhttp.open("POST", "addUser.php?q="+str , true);
@@ -106,6 +106,10 @@
 </nav>
 
 <div class='jobs'>
+
+<div id="users">
+
+</div>
 
 <h1>Database of Jobs</h1>
 <div id="results">
