@@ -13,7 +13,7 @@ $q = $_REQUEST["q"];
 // //insert query goes here
 // }
     
-$statement = $db->prepare("INSERT INTO User_app(email)VALUES($q)");
+$statement = $db->prepare("INSERT INTO User_app(email)VALUES('$q')");
 $statement->execute();
 
 $statement = $db->prepare("SELECT email FROM User_app");
