@@ -28,24 +28,14 @@
 	function read() {
 		//alert("in the read function");
 		// var results = document.getElementById("results");
-		// var xhttp = new XMLHttpRequest();
-		// xhttp.onreadystatechange = function() {
-		// 	if (this.readyState == 4 && this.status == 200) {
-    //             data = this.responseText;
-    //             document.getElementById("results").innerHTML = data;
-		// 	}
-		// };
-		// xhttp.open("GET", "loadData.php" , true);
-		// xhttp.send();
-
-    var xhttp = new XMLHttpRequest();
+		var xhttp = new XMLHttpRequest();
 		xhttp.onreadystatechange = function() {
 			if (this.readyState == 4 && this.status == 200) {
                 data = this.responseText;
                 document.getElementById("results").innerHTML = data;
 			}
 		};
-		xhttp.open("GET", "loadUsers.php" , true);
+		xhttp.open("GET", "loadData.php" , true);
 		xhttp.send();
 		//alert("End of read function");
 	}
@@ -55,8 +45,8 @@
 		var xhttps = new XMLHttpRequest();
 		xhttp.onreadystatechange = function() {
 			if (this.readyState == 4 && this.status == 200) {
-                data = this.responseText;
-                document.getElementById("users").innerHTML = data;
+                // data = this.responseText;
+                // document.getElementById("users").innerHTML = data;
 			}
 		};
 		xhttp.open("POST", "addUser.php?q="+str , true);

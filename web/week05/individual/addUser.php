@@ -23,8 +23,9 @@ while ($row = $statement->fetch(PDO::FETCH_ASSOC))
 {
 	// $category = $row['category'];
 	$email = $row['email'];
-	// $image = $row['image'];
-  echo "<h3>$email<h3>";
+   // $image = $row['image'];
+   console.log($email);
+//   echo "<h3>$email<h3>";
 //   echo "<img src='$image' class='img-responsive' alt='Image'>";
 }
 
