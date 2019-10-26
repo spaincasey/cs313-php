@@ -1,7 +1,7 @@
 <?php
 require "dbConnect.php";
 $db = get_db();
-$email = $_GET["obj"];
+$q = $_REQUEST["q"];
 // $statement = $db->prepare("SELECT email FROM User_app WHERE email = $email");
 // $statement->execute();
 // if(mysql_num_rows($sql)>=1)
@@ -13,7 +13,7 @@ $email = $_GET["obj"];
 // //insert query goes here
 // }
     
-$statement = $db->prepare("INSERT INTO User_app(email)VALUES($email)");
+$statement = $db->prepare("INSERT INTO User_app(email)VALUES($q)");
 $statement->execute();
 
 $statement = $db->prepare("SELECT email FROM User_app");
