@@ -21,9 +21,20 @@ input {
     background: #f1f1f1;
 }
 
-.carousel {
+/* .carousel {
     width:80vw;
     height:40vw;
+} */
+
+.carousel img {
+ position: absolute;
+ top: 0;
+ left: 0;
+ min-width: 100vw;
+ height: 100vh;
+ max-width: none;
+ object-fit:cover;
+ object-position:center;
 }
 
 .jobs {
