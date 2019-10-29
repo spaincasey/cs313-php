@@ -21,6 +21,11 @@ input {
     background: #f1f1f1;
 }
 
+.carousel-inner > .item > img {
+    width:640px;
+    height:360px;
+}
+
 .jobs {
     display: block;
     margin-left: auto;
