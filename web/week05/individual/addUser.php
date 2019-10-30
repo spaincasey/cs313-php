@@ -16,11 +16,11 @@ $q = $_REQUEST["q"];
 $statement = $db->prepare("SELECT EXISTS (SELECT * FROM User_app WHERE email = '$q')");
 $statement->execute();
 //select exists(select 1 from contact where id=12)
-if($statement){
-   echo 'alert(Your email is already registered)';
-}
-else
-{
+// if($statement){
+//    echo 'alert(Your email is already registered)';
+// }
+// else
+// {
 $statement = $db->prepare("INSERT INTO User_app(email)VALUES('$q')");
 $statement->execute();
 // Go through each result
@@ -33,6 +33,6 @@ while ($row = $statement->fetch(PDO::FETCH_ASSOC))
    echo "<h3>$email<h3>";
 //   echo "<img src='$image' class='img-responsive' alt='Image'>";
 }
-}
+// }
 
 ?>
