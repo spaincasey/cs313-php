@@ -141,13 +141,13 @@
       <h3>QUALITY</h3>
     </div>
     <div class="col-sm-3">
-      <p>INTEGRITY</p>
+      <h3>INTEGRITY</h3>
     </div>
     <div class="col-sm-3">
-      <p>TRANSPARENCY</p>
+      <h3>TRANSPARENCY</h3>
     </div>
     <div class="col-sm-3">
-      <p>TRANSPARENCY</p>
+      <h3>AFFORDABILITY</h3>
     </div>
   </div>
 </div>
