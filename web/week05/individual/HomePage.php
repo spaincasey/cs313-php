@@ -138,7 +138,7 @@
   <h1>Hello World!</h1>
   <div class="row">
     <div class="col-sm-3">
-      <p>QUALITY</p>
+      <h3>QUALITY</h3>
     </div>
     <div class="col-sm-3">
       <p>INTEGRITY</p>
