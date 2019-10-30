@@ -134,7 +134,18 @@
   </div>
 </div>
 
-<div class="container">
+<div class="container-fluid">
+  <h1>Hello World!</h1>
+  <div class="row">
+    <div class="col-sm-3" style="background-color:yellow;">
+      <p>Lorem ipsum...</p>
+    </div>
+    <div class="col-sm-9" style="background-color:pink;">
+      <p>Sed ut perspiciatis...</p>
+    </div>
+  </div>
+</div>
+<!-- <div class="container">
   <div class="row">
     <div class="col-sm justify-content-center">
       <h3>QUALITY</h3>
@@ -149,7 +160,7 @@
       <h3>AFFORDABILITY</h3>
     </div>
   </div>
-</div>
+</div> -->
 
   <!-- <div class='jobs'>
   <h1>Database of Jobs</h1>
