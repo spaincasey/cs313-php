@@ -66,12 +66,6 @@
   </div>
 </div>
 
-<!-- <div class="jumbotron">
-  <div class="container text-center">
-    <h1>Construction Home</h1>     
-  </div>
-</div> -->
-
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -83,10 +77,6 @@
       <a class="navbar-brand" href="#">Pannell Construction</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <!-- <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="contact.php">Contact</a></li>
-      </ul> -->
       <ul class="nav navbar-nav navbar-right">
         <li class="active"><a href="#">Home</a></li>
         <li><a href="jobs.php">Jobs</a></li>
@@ -173,32 +163,6 @@
 <br>
 <br>
 <br>
-<!-- <div class="container">
-  <div class="row">
-    <div class="col-sm justify-content-center">
-      <h3>QUALITY</h3>
-    </div>
-    <div class="col-sm justify-content-center">
-      <h3>INTEGRITY</h3>
-    </div>
-    <div class="col-sm justify-content-center">
-      <h3>TRANSPARENCY</h3>
-    </div>
-    <div class="col-sm justify-content-center">
-      <h3>AFFORDABILITY</h3>
-    </div>
-  </div>
-</div> -->
-
-  <!-- <div class='jobs'>
-  <h1>Database of Jobs</h1>
-  <div id="result"> -->
-
-  <!-- </div>
-  </div> -->
-
-<footer class="container-fluid text-center">
-</footer>
 
 </body>
 </html>
