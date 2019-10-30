@@ -21,8 +21,8 @@ $statement->execute();
 // }
 // else
 // {
-$statement = $db->prepare("INSERT INTO User_app(email)VALUES('$q')");
-$statement->execute();
+$statement2 = $db->prepare("INSERT INTO User_app(email)VALUES('$q')");
+$statement2->execute();
 // Go through each result
 while ($row = $statement->fetch(PDO::FETCH_ASSOC))
 {
