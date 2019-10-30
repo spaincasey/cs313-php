@@ -13,7 +13,7 @@ $q = $_REQUEST["q"];
 // //insert query goes here
 // }
 
-$statement = $db->prepare("SELECT EXISTS (SELECT * FROM User_app WHERE email = '$q')");
+$statement = $db->prepare("SELECT * FROM User_app WHERE email = '$q'");
 $result = $statement->execute();
 echo "<h3>This email is already registered<h3>";
 //select exists(select 1 from contact where id=12)
