@@ -15,24 +15,24 @@ $q = $_REQUEST["q"];
 
 $statement = $db->prepare("SELECT EXISTS (SELECT * FROM User_app WHERE email = '$q')");
 $statement->execute();
-//select exists(select 1 from contact where id=12)
-// if($statement){
-//    echo 'alert(Your email is already registered)';
-// }
-// else
-// {
-$statement2 = $db->prepare("INSERT INTO User_app(email)VALUES('$q')");
-$statement2->execute();
-// Go through each result
-while ($row = $statement->fetch(PDO::FETCH_ASSOC))
-{
-	// $category = $row['category'];
-	$email = $row['email'];
-   // $image = $row['image'];
-   console.log($email);
-   echo "<h3>$email<h3>";
-//   echo "<img src='$image' class='img-responsive' alt='Image'>";
+select exists(select 1 from contact where id=12)
+if($statement){
+   echo "<h3>This email is already registered<h3>";
 }
-// }
+else
+{
+   $statement2 = $db->prepare("INSERT INTO User_app(email)VALUES('$q')");
+   $statement2->execute();
+   // Go through each result
+   while ($row = $statement->fetch(PDO::FETCH_ASSOC))
+   {
+      // $category = $row['category'];
+      $email = $row['email'];
+      // $image = $row['image'];
+      console.log($email);
+      echo "<h3>$email<h3>";
+   //   echo "<img src='$image' class='img-responsive' alt='Image'>";
+   }
+}
 
 ?>
