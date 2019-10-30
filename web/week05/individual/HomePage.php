@@ -137,11 +137,17 @@
 <div class="container-fluid">
   <h1>Hello World!</h1>
   <div class="row">
-    <div class="col-sm-3" style="background-color:yellow;">
-      <p>Lorem ipsum...</p>
+    <div class="col-sm-3">
+      <p>QUALITY</p>
     </div>
-    <div class="col-sm-9" style="background-color:pink;">
-      <p>Sed ut perspiciatis...</p>
+    <div class="col-sm-3">
+      <p>INTEGRITY</p>
+    </div>
+    <div class="col-sm-3">
+      <p>TRANSPARENCY</p>
+    </div>
+    <div class="col-sm-3">
+      <p>TRANSPARENCY</p>
     </div>
   </div>
 </div>
