@@ -15,7 +15,8 @@ $q = $_REQUEST["q"];
 
 $statement = $db->prepare("SELECT EXISTS (SELECT * FROM User_app WHERE email = '$q')");
 $statement->execute();
-select exists(select 1 from contact where id=12)
+echo "<h3>This email is already registered<h3>";
+//select exists(select 1 from contact where id=12)
 if($statement){
    echo "<h3>This email is already registered<h3>";
 }
