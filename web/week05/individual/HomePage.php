@@ -134,6 +134,23 @@
     </div>
   </div>
 
+  <div class="container">
+    <div class="row">
+        <div class="col-4 d-flex justify-content-center">
+          <h3>QUALITY</h3>
+        </div>
+        <div class="col-4 d-flex justify-content-center">
+          <h3>INTEGRITY</h3>
+        </div>
+        <div class="col-4 d-flex justify-content-center">
+          <h3>TRANSPARENCY</h3>
+        </div>
+        <div class="col-4 d-flex justify-content-center">
+          <h3>AFFORDABILITY</h3>
+        </div>
+    </div>
+  </div>
+
   <div class='jobs'>
   <h1>Database of Jobs</h1>
   <div id="result">
