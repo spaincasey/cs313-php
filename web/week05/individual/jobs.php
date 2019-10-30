@@ -89,9 +89,9 @@
   <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
   <span class="caret"></span></button>
   <ul class="dropdown-menu">
-    <li><a href="#">HTML</a></li>
-    <li><a href="#">CSS</a></li>
-    <li><a href="#">JavaScript</a></li>
+    <li><a href="#">Drywall</a></li>
+    <li><a href="#">Roofing</a></li>
+    <li><a href="#">Demolition</a></li>
   </ul>
 </div>
 <div class='jobs'>
