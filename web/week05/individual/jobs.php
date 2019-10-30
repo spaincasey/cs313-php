@@ -85,6 +85,9 @@
     </div>
   </div>
 </nav>
+
+<div class='jobs'>
+<h1>Our Projects</h1>
 <div class="dropdown">
   <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
   <span class="caret"></span></button>
@@ -94,8 +97,6 @@
     <li><a href="#">Demolition</a></li>
   </ul>
 </div>
-<div class='jobs'>
-<h1>Our Projects</h1>
 <div id="results">
 
 </div>
