@@ -13,15 +13,15 @@ $q = $_REQUEST["q"];
 // //insert query goes here
 // }
 
-$statement = $db->prepare("SELECT * FROM User_app WHERE email = '$q'");
-$result = $statement->execute();
-echo "<h3>This email is already registered<h3>";
-//select exists(select 1 from contact where id=12)
-if($result){
-   echo "Email already exists in the system";
-}
-else
-{
+// $statement = $db->prepare("SELECT * FROM User_app WHERE email = '$q'");
+// $result = $statement->execute();
+// echo "<h3>This email is already registered<h3>";
+// //select exists(select 1 from contact where id=12)
+// if($result){
+//    echo "Email already exists in the system";
+// }
+// else
+// {
    $statement2 = $db->prepare("INSERT INTO User_app(email)VALUES('$q')");
    $statement2->execute();
    // Go through each result
@@ -34,6 +34,6 @@ else
    //    echo "<h3>$email<h3>";
    // //   echo "<img src='$image' class='img-responsive' alt='Image'>";
    // }
-}
+// }
 
 ?>
