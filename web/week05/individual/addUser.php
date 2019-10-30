@@ -14,14 +14,13 @@ $q = $_REQUEST["q"];
 // }
 
 $statement = $db->prepare("SELECT EXISTS (SELECT * FROM User_app WHERE email = '$q')");
-$exists = $statement->execute();
+$statement->execute();
 //select exists(select 1 from contact where id=12)
-if($exists){
+if($statement){
    echo 'alert(Your email is already registered)';
 }
 else
 {
-    
 $statement = $db->prepare("INSERT INTO User_app(email)VALUES('$q')");
 $statement->execute();
 // Go through each result
