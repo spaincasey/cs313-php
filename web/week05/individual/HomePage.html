@@ -21,8 +21,8 @@
 		var xhttp = new XMLHttpRequest();
 		xhttp.onreadystatechange = function() {
 			if (this.readyState == 4 && this.status == 200) {
-                data = this.responseText;
-                document.getElementById("results").innerHTML = data;
+        data = this.responseText;
+        document.getElementById("results").innerHTML = data;
 			}
 		};
 		xhttp.open("GET", "loadData.php" , true);
@@ -34,6 +34,8 @@
 		var xhttp = new XMLHttpRequest();
 		xhttp.onreadystatechange = function() {
 			if (this.readyState == 4 && this.status == 200) {
+        data = this.responseText;
+        document.getElementById("result").innerHTML = data;
 			}
 		};
 		xhttp.open("POST", "addUser.php?q="+str , true);
@@ -130,6 +132,13 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
+  </div>
+
+  <div class='jobs'>
+  <h1>Database of Jobs</h1>
+  <div id="result">
+
+  </div>
   </div>
 
 <footer class="container-fluid text-center">
