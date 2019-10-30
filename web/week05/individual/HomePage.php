@@ -134,7 +134,7 @@
   </div>
 </div>
 
-<div class="container">
+<!-- <div class="container"> -->
   <div class="row">
     <div class="col-sm justify-content-center">
       <h3>QUALITY</h3>
@@ -149,7 +149,7 @@
       <h3>AFFORDABILITY</h3>
     </div>
   </div>
-</div>
+<!-- </div> -->
 
   <!-- <div class='jobs'>
   <h1>Database of Jobs</h1>
