@@ -76,7 +76,9 @@
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                         
       </button>
       <a class="navbar-brand" href="#">Pannell Construction</a>
     </div>
@@ -86,9 +88,9 @@
         <li><a href="contact.php">Contact</a></li>
       </ul> -->
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="HomePage.html">Home</a></li>
-        <li class="active"><a href="#">Jobs</a></li>
-        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="HomePage.php">Home</a></li>
+        <li><a href="jobs.php">Jobs</a></li>
+        <li class="active"><a href="#">Reviews</a></li>
         <li><a href="contact.php">Contact</a></li>
         <li><a href="#" data-toggle="modal" data-target="#signUpModal">Sign Up</a></li>
       </ul>
