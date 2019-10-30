@@ -134,11 +134,16 @@
   </div>
 </div>
 
+<br>
+
 <div class="container-fluid">
-  <h1>Hello World!</h1>
+  <h1>Our Values</h1>
   <div class="row">
     <div class="col-sm-3">
       <h3>QUALITY</h3>
+      <p>We deliver quality
+        work that we 
+        be proud of</p>
     </div>
     <div class="col-sm-3">
       <h3>INTEGRITY</h3>
