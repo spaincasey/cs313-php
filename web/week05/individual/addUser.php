@@ -14,11 +14,11 @@ $q = $_REQUEST["q"];
 // }
 
 $statement = $db->prepare("SELECT EXISTS (SELECT * FROM User_app WHERE email = '$q')");
-$exist = $statement->execute();
+$result = $statement->execute();
 echo "<h3>This email is already registered<h3>";
 //select exists(select 1 from contact where id=12)
-if($exist){
-   echo "<h3>This email is already registered<h3>";
+if($result){
+   echo "Email already exists in the system";
 }
 else
 {
