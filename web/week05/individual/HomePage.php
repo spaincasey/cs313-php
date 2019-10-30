@@ -147,12 +147,22 @@
     </div>
     <div class="col-sm-3">
       <h3>INTEGRITY</h3>
+      <p>We believe that 
+      <br>honest work that  
+      <br>exceeds our customers
+      <br>expectations</p>
     </div>
     <div class="col-sm-3">
       <h3>TRANSPARENCY</h3>
+      <p>We deliver quality
+      <br>work that we 
+      <br>be proud of</p>
     </div>
     <div class="col-sm-3">
       <h3>AFFORDABILITY</h3>
+      <p>We deliver quality
+      <br>work that we 
+      <br>be proud of</p>
     </div>
   </div>
 </div>
