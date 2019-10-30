@@ -64,12 +64,6 @@
   </div>
 </div>
 
-<!-- <div class="jumbotron">
-  <div class="container text-center">
-    <h1>Construction Home</h1>     
-  </div>
-</div> -->
-
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -81,10 +75,6 @@
       <a class="navbar-brand" href="#">Pannell Construction</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <!-- <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="contact.php">Contact</a></li>
-      </ul> -->
       <ul class="nav navbar-nav navbar-right">
         <li><a href="HomePage.php">Home</a></li>
         <li class="active"><a href="#">Jobs</a></li>
@@ -96,17 +86,16 @@
   </div>
 </nav>
 <div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Dropdown button
-  </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="#">Action</a>
-    <a class="dropdown-item" href="#">Another action</a>
-    <a class="dropdown-item" href="#">Something else here</a>
-  </div>
+  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+  <span class="caret"></span></button>
+  <ul class="dropdown-menu">
+    <li><a href="#">HTML</a></li>
+    <li><a href="#">CSS</a></li>
+    <li><a href="#">JavaScript</a></li>
+  </ul>
 </div>
 <div class='jobs'>
-<h1>Database of Jobs</h1>
+<h1>Our Projects</h1>
 <div id="results">
 
 </div>
