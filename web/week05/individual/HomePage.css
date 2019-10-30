@@ -83,6 +83,8 @@ input {
     text-align: left;
 }
 .navbar{
+    padding-right: 5vh;
+    padding-left: 5vh;
     margin-bottom: 0px;
     border: #373D51;
 }
