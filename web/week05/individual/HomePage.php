@@ -127,7 +127,7 @@
 <br><br><br>
 
 <div class="container-fluid">
-  <h1>Our Values</h1>
+  <h1>Our Values</h1><br>
   <div class="row">
     <div class="col-sm-3">
       <h3>QUALITY</h3>

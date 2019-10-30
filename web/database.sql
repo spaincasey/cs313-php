@@ -1,6 +1,6 @@
 CREATE TABLE public.User_app (id SERIAL NOT NULL PRIMARY KEY, email VARCHAR(100) NOT NULL UNIQUE);
 CREATE TABLE public.Job (id SERIAL NOT NULL PRIMARY KEY, category INT NOT NULL REFERENCES public.category(id), description TEXT NOT NULL, image VARCHAR(100) NOT NULL);
-CREATE TABLE public.Review (id SERIAL NOT NULL PRIMARY KEY,user_id INT NOT NULL REFERENCES public.user(id),job_id INT NOT NULL REFERENCES public.job(id), text TEXT NOT NULL);
+CREATE TABLE public.Review (id SERIAL NOT NULL PRIMARY KEY,user_app_id INT NOT NULL REFERENCES public.user(id), review_text TEXT NOT NULL);
 CREATE TABLE public.Category (id SERIAL NOT NULL PRIMARY KEY, cat_name VARCHAR(100) NOT NULL);
 
 INSERT INTO category(cat_name)VALUES('drywall');
@@ -15,3 +15,7 @@ SELECT * FROM Job JOIN Category USING(id) WHERE cat_name = 'demolition';
 
 INSERT INTO User_app(email)VALUES();
 DELETE FROM User_app WHERE email='[object HTMLInputElement]';
+
+INSERT INTO Review(user_app_id, review_text)VALUES((SELECT id from User_app WHERE email='spaincasey7@gmail.com'), 'DWe had an awesome experience working with Pannell Construction. Designing our home was easy and nearly effortless with all of their options ready for you pick & choose. Our home was built quickly, and the quality is excellent. They were quick to fix any initial issues, and we couldn’t be happier with our home! We would recommend Pannel Construction again and again.');
+INSERT INTO Review(user_app_id, review_text)VALUES((SELECT id from User_app WHERE email='spaincasey7@gmail.com'), 'Their homes are beautiful and affordable! They have a ton of floor plans to choose from and their staff is super helpful! Best home builder out there. They really care about their customers!');
+INSERT INTO Review(user_app_id, review_text)VALUES((SELECT id from User_app WHERE email='spaincasey7@gmail.com'), 'Amazing to work with, they were always very prompt to respond to our questions and concerns and they made sure things were done right. From the sales team, design team, superintendent down to the closing office the entire crew was personable and provided excellent customer service through the entire process! Highly Recommended!');
