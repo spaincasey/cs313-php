@@ -154,15 +154,17 @@
     </div>
     <div class="col-sm-3">
       <h3>TRANSPARENCY</h3>
-      <p>We deliver quality
-      <br>work that we 
-      <br>be proud of</p>
+      <p>We are there with
+      <br>you every step 
+      <br>of the process
+      <br>to ensure complete
+      <br>transparency </p>
     </div>
     <div class="col-sm-3">
       <h3>AFFORDABILITY</h3>
-      <p>We deliver quality
-      <br>work that we 
-      <br>be proud of</p>
+      <p>We believe in fair
+      <br>prices for great  
+      <br>work</p>
     </div>
   </div>
 </div>
