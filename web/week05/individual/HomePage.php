@@ -10,37 +10,37 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="HomePage.css">
   <script type="text/javascript">
-    window.onload = function() {
-        // read();
-    }
+  //   window.onload = function() {
+  //       // read();
+  //   }
 
-  /********************************************************
-	* AJAX request to read the Job items
-	*********************************************************/
-	function read() {
-		var xhttp = new XMLHttpRequest();
-		xhttp.onreadystatechange = function() {
-			if (this.readyState == 4 && this.status == 200) {
-        var data = this.responseText;
-        document.getElementById("results").innerHTML = data;
-			}
-		};
-		xhttp.open("GET", "loadData.php" , true);
-		xhttp.send();
-	}
+  // /********************************************************
+	// * AJAX request to read the Job items
+	// *********************************************************/
+	// function read() {
+	// 	var xhttp = new XMLHttpRequest();
+	// 	xhttp.onreadystatechange = function() {
+	// 		if (this.readyState == 4 && this.status == 200) {
+  //       var data = this.responseText;
+  //       document.getElementById("results").innerHTML = data;
+	// 		}
+	// 	};
+	// 	xhttp.open("GET", "loadData.php" , true);
+	// 	xhttp.send();
+	// }
 
-  function addUser() {
-    var str = document.getElementById("email").value;
-		var xhttp = new XMLHttpRequest();
-		xhttp.onreadystatechange = function() {
-			if (this.readyState == 4 && this.status == 200) {
-        // data = this.responseText;
-        document.getElementById("result").innerHTML = this.responseText;
-			}
-		};
-		xhttp.open("POST", "addUser.php?q="+str , true);
-		xhttp.send();
-  }
+  // function addUser() {
+  //   var str = document.getElementById("email").value;
+	// 	var xhttp = new XMLHttpRequest();
+	// 	xhttp.onreadystatechange = function() {
+	// 		if (this.readyState == 4 && this.status == 200) {
+  //       // data = this.responseText;
+  //       document.getElementById("result").innerHTML = this.responseText;
+	// 		}
+	// 	};
+	// 	xhttp.open("POST", "addUser.php?q="+str , true);
+	// 	xhttp.send();
+  // }
   </script>
 </head>
 <body>
