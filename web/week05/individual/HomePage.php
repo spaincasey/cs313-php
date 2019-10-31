@@ -53,7 +53,7 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <form method="post" onsubmit="addUser()">
+      <form>
       <div class="modal-body">
         <label for="email"><b>Email</b></label>
         <input type="text" placeholder="Enter Email" id="email" required>
