@@ -113,24 +113,19 @@
     <div class="row">
       <div class="col-sm-4">
         <h3>EMAIL</h3>
-        <p>We deliver quality
-        <br>work that we 
-        <br>be proud of</p>
+        <br>
+        <p>pannelconstruction@construction.com</p>
       </div>
       <div class="col-sm-4">
         <h3>PHONE</h3>
-        <p>We believe that 
-        <br>honest work that  
-        <br>exceeds our customers
-        <br>expectations</p>
+        <br>
+        <p>555-555-5555</p>
       </div>
       <div class="col-sm-4">
         <h3>ADDRESS</h3>
-        <p>We are there with
-        <br>you every step 
-        <br>of the process
-        <br>to ensure complete
-        <br>transparency </p>
+        <br>
+        <p>123 N 456 S 
+        <br>Rexburg, ID 83440</p>
       </div>
     </div>
   </div>
