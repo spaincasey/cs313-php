@@ -25,6 +25,16 @@ input {
     background-color: #383B53;
 }
 
+/* .results1 {
+    background-color: #383B53;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    width: 75%;
+    text-align: center;
+} */
+
 .dropdown {text-align:center;}
 .button, .dropdown-menu {margin:10px auto}
 .dropdown-menu {width:200px; left:50%; margin-left:-100px;}
@@ -50,7 +60,7 @@ input {
     margin-left: auto;
     margin-right: auto;
     margin-top: 0px;
-    width: 50%;
+    width: 75%;
     text-align: center;
 }
 
