@@ -64,12 +64,6 @@
   </div>
 </div>
 
-<!-- <div class="jumbotron">
-  <div class="container text-center">
-    <h1>Construction Home</h1>     
-  </div>
-</div> -->
-
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -80,13 +74,9 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                         
       </button>
-      <a class="navbar-brand" href="#">Pannell Construction</a>
+      <a class="navbar-brand" href="HomePage.php">Pannell Construction</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <!-- <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="contact.php">Contact</a></li>
-      </ul> -->
       <ul class="nav navbar-nav navbar-right">
         <li><a href="HomePage.php">Home</a></li>
         <li><a href="jobs.php">Jobs</a></li>
