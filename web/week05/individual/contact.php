@@ -107,25 +107,25 @@
     <h1>Contact Us</h1>
     <h3>We would love to work with you on your next construction project
     <br>contact us and we will get in touch with you as soon as possible</h3>
-  </div>
-  <div class="container-fluid">
-    ]<br>
-    <div class="row">
-      <div class="col-sm-4">
-        <h3>EMAIL</h3>
-        <br>
-        <p>pannel@construction.com</p>
-      </div>
-      <div class="col-sm-4">
-        <h3>PHONE</h3>
-        <br>
-        <p>555-555-5555</p>
-      </div>
-      <div class="col-sm-4">
-        <h3>ADDRESS</h3>
-        <br>
-        <p>123 N 456 S 
-        <br>Rexburg, ID 83440</p>
+    <div class="container-fluid">
+    <br>
+      <div class="row">
+        <div class="col-sm-4">
+          <h3>EMAIL</h3>
+          <br>
+          <p>pannel@construction.com</p>
+        </div>
+        <div class="col-sm-4">
+          <h3>PHONE</h3>
+          <br>
+          <p>555-555-5555</p>
+        </div>
+        <div class="col-sm-4">
+          <h3>ADDRESS</h3>
+          <br>
+          <p>123 N 456 S 
+          <br>Rexburg, ID 83440</p>
+        </div>
       </div>
     </div>
   </div>
