@@ -111,20 +111,20 @@
   <div class="container-fluid">
     ]<br>
     <div class="row">
-      <div class="col-sm">
+      <div class="col-sm-4">
         <h3>EMAIL</h3>
         <p>We deliver quality
         <br>work that we 
         <br>be proud of</p>
       </div>
-      <div class="col-sm">
+      <div class="col-sm-4">
         <h3>PHONE</h3>
         <p>We believe that 
         <br>honest work that  
         <br>exceeds our customers
         <br>expectations</p>
       </div>
-      <div class="col-sm">
+      <div class="col-sm-4">
         <h3>ADDRESS</h3>
         <p>We are there with
         <br>you every step 
