@@ -100,15 +100,15 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <img src="building1.jpg" alt="Los Angeles" style="width:100%;">
+        <img src="building1.jpg" alt="Los Angeles">
       </div>
 
       <div class="item">
-        <img src="building2.jpg" alt="Chicago" style="width:100%;">
+        <img src="building2.jpg" alt="Chicago">
       </div>
     
       <div class="item">
-        <img src="building3.jpg" alt="New york" style="width:100%;">
+        <img src="building3.jpg" alt="New york">
       </div>
     </div>
 
