@@ -98,7 +98,7 @@
   </div>
 </nav>
 
-<div class="container"> 
+<div class="div3"> 
   <img src="residential.jpg" alt="Los Angeles">
 </div>
 
