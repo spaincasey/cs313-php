@@ -105,8 +105,9 @@
 <div class='jobs'>
   <div class='jobs'>
     <h1>Contact Us</h1>
-    <div id="results">
-    </div>
+    <br><br>
+    <p>We would love to work with you on your next construction project
+    <br>contact us and we will get in touch with you as soon as possible</p>
   </div>
 </div>
 <footer class="container-fluid text-center">
