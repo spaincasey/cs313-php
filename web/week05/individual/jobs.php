@@ -87,19 +87,18 @@
 </nav>
 
 <div class='jobs'>
-<h1>Our Projects</h1>
-<div class="dropdown">
-  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Categories
-  <span class="caret"></span></button>
-  <ul class="dropdown-menu">
-    <li><a href="#">Drywall</a></li>
-    <li><a href="#">Roofing</a></li>
-    <li><a href="#">Demolition</a></li>
-  </ul>
-</div>
-<div id="results">
-
-</div>
+  <h1>Our Projects</h1>
+  <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Categories
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#">Drywall</a></li>
+      <li><a href="#">Roofing</a></li>
+      <li><a href="#">Demolition</a></li>
+    </ul>
+  </div>
+  <div id="results">
+  </div>
 </div>
 
 <footer class="container-fluid text-center">
