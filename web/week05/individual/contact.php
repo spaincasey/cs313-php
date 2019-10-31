@@ -114,7 +114,7 @@
       <div class="col-sm-4">
         <h3>EMAIL</h3>
         <br>
-        <p>pannelconstruction@construction.com</p>
+        <p>pannel@construction.com</p>
       </div>
       <div class="col-sm-4">
         <h3>PHONE</h3>
