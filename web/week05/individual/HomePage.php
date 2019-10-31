@@ -17,17 +17,17 @@
   /********************************************************
 	* AJAX request to read the Job items
 	*********************************************************/
-	function read() {
-		var xhttp = new XMLHttpRequest();
-		xhttp.onreadystatechange = function() {
-			if (this.readyState == 4 && this.status == 200) {
-        var data = this.responseText;
-        document.getElementById("results").innerHTML = data;
-			}
-		};
-		xhttp.open("GET", "loadData.php" , true);
-		xhttp.send();
-	}
+	// function read() {
+	// 	var xhttp = new XMLHttpRequest();
+	// 	xhttp.onreadystatechange = function() {
+	// 		if (this.readyState == 4 && this.status == 200) {
+  //       var data = this.responseText;
+  //       document.getElementById("results").innerHTML = data;
+	// 		}
+	// 	};
+	// 	xhttp.open("GET", "loadData.php" , true);
+	// 	xhttp.send();
+	// }
 
   function addUser() {
     var str = document.getElementById("email").value;
