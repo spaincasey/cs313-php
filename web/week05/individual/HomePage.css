@@ -4,7 +4,12 @@ body {
 
 h1 {
     text-align: center;
-    color: black !important;
+    color: white !important;
+}
+
+h3 {
+    text-align: center;
+    color: white !important;
 }
 
 img {
