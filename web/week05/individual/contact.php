@@ -108,6 +108,32 @@
     <h3>We would love to work with you on your next construction project
     <br>contact us and we will get in touch with you as soon as possible</h3>
   </div>
+  <div class="container-fluid">
+    <h1>Our Values</h1><br>
+    <div class="row">
+      <div class="col-sm-3">
+        <h3>EMAIL</h3>
+        <p>We deliver quality
+        <br>work that we 
+        <br>be proud of</p>
+      </div>
+      <div class="col-sm-3">
+        <h3>PHONE</h3>
+        <p>We believe that 
+        <br>honest work that  
+        <br>exceeds our customers
+        <br>expectations</p>
+      </div>
+      <div class="col-sm-3">
+        <h3>ADDRESS</h3>
+        <p>We are there with
+        <br>you every step 
+        <br>of the process
+        <br>to ensure complete
+        <br>transparency </p>
+      </div>
+    </div>
+  </div>
 </div>
 <footer class="container-fluid text-center">
 </footer>

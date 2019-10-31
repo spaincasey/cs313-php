@@ -3,6 +3,10 @@ body {
     padding: 0%;
 }
 
+p {
+    color: white;
+}
+
 h1 {
     text-align: center;
     color: white !important;
