@@ -81,6 +81,9 @@ input {
     width: 75%;
     text-align: center;
 }
+.container-fluid {
+    width: 75%;
+}
 
 .right {
     float: right;
@@ -128,8 +131,6 @@ input {
     text-align: left;
 }
 .navbar{
-    padding-right: 5%;
-    padding-left: 5%;
     margin-bottom: 0px;
     border: #373D51;
 }
