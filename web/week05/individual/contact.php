@@ -90,8 +90,8 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a href="HomePage.php">Home</a></li>
         <li><a href="jobs.php">Jobs</a></li>
-        <li class="active"><a href="#">Reviews</a></li>
-        <li><a href="contact.php">Contact</a></li>
+        <li><a href="reviews.php">Reviews</a></li>
+        <li class="active"><a href="#">Contact</a></li>
         <li><a href="#" data-toggle="modal" data-target="#signUpModal">Sign Up</a></li>
       </ul>
     </div>
