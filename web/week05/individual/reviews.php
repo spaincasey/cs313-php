@@ -98,7 +98,7 @@
   </div>
 </nav>
 
-<div class='reviews'>
+<div class='jobs'>
 <h1>Database of Jobs</h1>
 <div id="results">
 
