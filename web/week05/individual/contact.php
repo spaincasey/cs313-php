@@ -109,7 +109,7 @@
     <br>contact us and we will get in touch with you as soon as possible</h3>
   </div>
   <div class="container-fluid">
-    <h1>Our Values</h1><br>
+    ]<br>
     <div class="row">
       <div class="col-sm">
         <h3>EMAIL</h3>
