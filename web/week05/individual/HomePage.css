@@ -6,6 +6,8 @@ body {
 h1 {
     text-align: center;
     color: white !important;
+    margin: 0%;
+    padding: 5%;
 }
 
 h3 {
@@ -42,7 +44,7 @@ input {
 } */
 
 .dropdown {text-align:center;}
-.button, .dropdown-menu {margin:10px auto}
+.button, .dropdown-menu {margin:0px auto}
 .dropdown-menu {width:200px; left:50%; margin-left:-100px;}
 
 .col-sm-3{
