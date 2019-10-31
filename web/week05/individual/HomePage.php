@@ -17,17 +17,17 @@
   /********************************************************
 	* AJAX request to read the Job items
 	*********************************************************/
-	// function read() {
-	// 	var xhttp = new XMLHttpRequest();
-	// 	xhttp.onreadystatechange = function() {
-	// 		if (this.readyState == 4 && this.status == 200) {
-  //       var data = this.responseText;
-  //       document.getElementById("results").innerHTML = data;
-	// 		}
-	// 	};
-	// 	xhttp.open("GET", "loadData.php" , true);
-	// 	xhttp.send();
-	// }
+	function read() {
+		var xhttp = new XMLHttpRequest();
+		xhttp.onreadystatechange = function() {
+			if (this.readyState == 4 && this.status == 200) {
+        var data = this.responseText;
+        document.getElementById("results").innerHTML = data;
+			}
+		};
+		xhttp.open("GET", "loadData.php" , true);
+		xhttp.send();
+	}
 
   function addUser() {
     var str = document.getElementById("email").value;
@@ -53,7 +53,7 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <form>
+      <form method="post" onsubmit="addUser()">
       <div class="modal-body">
         <label for="email"><b>Email</b></label>
         <input type="text" placeholder="Enter Email" id="email" required>
