@@ -98,22 +98,13 @@
   </div>
 </nav>
 
-<div class="div3"> 
+<div class="container"> 
   <img src="residential.jpg" alt="Los Angeles">
 </div>
 
 <div class='jobs'>
   <div class='jobs'>
-    <h1>Our Projects</h1>
-    <div class="dropdown">
-      <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Categories
-      <span class="caret"></span></button>
-      <ul class="dropdown-menu">
-        <li><a href="#">Drywall</a></li>
-        <li><a href="#">Roofing</a></li>
-        <li><a href="#">Demolition</a></li>
-      </ul>
-    </div>
+    <h1>Contact Us</h1>
     <div id="results">
     </div>
   </div>
