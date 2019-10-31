@@ -29,23 +29,28 @@ input {
     background: #f1f1f1;
 }
 
-/* .reviews {
-    background-color: #383B53;
-} */
-
-/* .results1 {
+.div3 { 
     background-color: #383B53;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0px;
-    width: 75%;
+    margin-top: 0px !important;
+    padding-bottom: 10px;
+    width: 100%;
     text-align: center;
-} */
+}
 
-.dropdown {text-align:center;}
-.button, .dropdown-menu {margin:0px auto}
-.dropdown-menu {width:200px; left:50%; margin-left:-100px;}
+.dropdown {
+    text-align:center;
+}
+
+.button, .dropdown-menu {
+    margin:0px auto
+
+}
+.dropdown-menu {
+    width:200px; left:50%; margin-left:-100px;
+}
 
 .col-sm-3{
     margin-left: auto;
