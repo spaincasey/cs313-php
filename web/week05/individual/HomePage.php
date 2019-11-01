@@ -47,9 +47,7 @@ $db = get_db();
           $_SESSION["name"] = $first += " " += $last;
         }
         else {
-          echo '<script language="javascript">';
           echo 'alert("This email does not exist in our records")';
-          echo '</script>';
         }
     }
     // else if ($_POST['action'] == 'Sign up') {
