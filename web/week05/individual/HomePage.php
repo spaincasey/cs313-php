@@ -76,7 +76,14 @@ session_start();
         <input type="text" placeholder="Enter Email" id="email" required>
       </div>
       <div class="modal-footer">
-        <input type="submit" class="btn btn-primary" name="test" id="test" value="Sign Up" />
+        <div class="row">
+          <div class="col-sm-5">
+            <input type="submit" class="btn btn-primary" name="test" id="test" value="Sign Up" />
+          </div>
+          <div class="col-sm-5">
+            <input type="submit" class="btn btn-primary" name="test" id="test" value="Sign In" />
+          </div>
+        </div>
       </div>
       </form>
     </div>
@@ -99,7 +106,7 @@ session_start();
         <li><a href="jobs.php">Jobs</a></li>
         <li><a href="reviews.php">Reviews</a></li>
         <li><a href="contact.php">Contact</a></li>
-        <li><a href="#" data-toggle="modal" data-target="#signUpModal">Sign Up</a></li>
+        <li><a href="#" data-toggle="modal" data-target="#signUpModal">Sign Up/Sign In</a></li>
         <?php 
           if(!isset($_SESSION['name'])){
             $name = $_SESSION['name'];
