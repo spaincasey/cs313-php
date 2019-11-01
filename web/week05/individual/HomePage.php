@@ -55,7 +55,7 @@
       </div>
       <form method="post" onsubmit="addUser()">
       <div class="modal-body">
-        <label for="email"><b>First Name</b></label>
+        <label for="email">First Name</label>
         <input type="text" placeholder="Enter First Name" id="first name" required>
         <label for="email"><b>Last Name</b></label>
         <input type="text" placeholder="Enter Last Name" id="last name" required>
