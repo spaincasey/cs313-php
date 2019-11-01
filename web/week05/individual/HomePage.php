@@ -42,14 +42,14 @@ $db = get_db();
     $email = document.getElementById("email").value;
     $statement = $db->prepare("SELECT email FROM User_app WHERE email = '$email'");
     $statement->execute();
-    if ($_POST['action'] == 'Sign in') {
-        if (pg_num_rows($statement)) {
-          $_SESSION["name"] = $first += " " += $last;
-        }
-        else {
-          echo 'alert("This email does not exist in our records")';
-        }
-    }
+    // if ($_POST['action'] == 'Sign in') {
+    //     if (pg_num_rows($statement)) {
+    //       $_SESSION["name"] = $first += " " += $last;
+    //     }
+    //     else {
+    //       echo 'alert("This email does not exist in our records")';
+    //     }
+    // }
     // else if ($_POST['action'] == 'Sign up') {
     //     if (pg_num_rows($statement)) {
     //       echo '<script language="javascript">';
