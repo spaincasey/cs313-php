@@ -100,7 +100,7 @@
     </div>
   </div>
 </nav>
-
+<div class="jobs">
 <div class="container"> 
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
@@ -137,7 +137,7 @@
   </div>
 </div>
 
-<div class="jobs">
+<!-- <div class="jobs"> -->
   <br><br><br>
   <h1>Our Values</h1><br>
   <div class="row">
