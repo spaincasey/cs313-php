@@ -1,3 +1,7 @@
+<?php
+// Start the session
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -96,6 +100,11 @@
         <li><a href="reviews.php">Reviews</a></li>
         <li><a href="contact.php">Contact</a></li>
         <li><a href="#" data-toggle="modal" data-target="#signUpModal">Sign Up</a></li>
+        <?php 
+          if($_SESSION["name"]){
+            echo "<li>Welcome $_SESSION["name"]</li>";
+          }
+        ?>
       </ul>
     </div>
   </div>
