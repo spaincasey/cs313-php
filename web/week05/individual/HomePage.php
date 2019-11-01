@@ -95,7 +95,7 @@ $db = get_db();
         <li><a href="contact.php">Contact</a></li>
         <li><a href="#" data-toggle="modal" data-target="#signUpModal">Sign Up/Sign In</a></li>
         <?php 
-          if(!isset($_SESSION['name'])){
+          if(isset($_SESSION['name'])){
             $name = $_SESSION['name'];
             echo "<li><a href='#'>Welcome {$name}</a></li>";
           }
