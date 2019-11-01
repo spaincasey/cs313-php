@@ -63,11 +63,11 @@ session_start();
       <form method="post" onsubmit="addUser()">
       <div class="modal-body">
         <div class="row">
-          <div class="col-sm-5">
+          <div class="col-sm-6">
             <label for="email"><b>First Name</b></label>
             <input type="text" placeholder="Enter First Name" id="first_name" required>
           </div>
-          <div class="col-sm-5">
+          <div class="col-sm-6">
             <label for="email"><b>Last Name</b></label>
             <input type="text" placeholder="Enter Last Name" id="last_name" required>
           </div>
@@ -76,7 +76,15 @@ session_start();
         <input type="text" placeholder="Enter Email" id="email" required>
       </div>
       <div class="modal-footer">
-        <input type="submit" class="btn btn-primary" name="test" id="test" value="Sign Up" />
+        <input type="submit" class="btn btn-primary" name="action" value="Sign Up/Sign In" />
+        <!-- <div class="row">
+          <div class="col-sm-6">
+            <input type="submit" class="btn btn-primary" name="action" value="Sign Up/Sign In" />
+          </div>
+          <div class="col-sm-6">
+            <input type="submit" class="btn btn-primary" name="action" value="Sign In" />
+          </div>
+        </div> -->
       </div>
       </form>
     </div>
@@ -101,7 +109,7 @@ session_start();
         <li><a href="jobs.php">Jobs</a></li>
         <li><a href="reviews.php">Reviews</a></li>
         <li class="active"><a href="#">Contact</a></li>
-        <li><a href="#" data-toggle="modal" data-target="#signUpModal">Sign Up</a></li>
+        <li><a href="#" data-toggle="modal" data-target="#signUpModal">Sign Up/Sign In</a></li>
       </ul>
     </div>
   </div>
