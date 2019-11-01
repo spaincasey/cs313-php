@@ -56,11 +56,11 @@
       <form method="post" onsubmit="addUser()">
       <div class="modal-body">
         <div class="row">
-          <div class="col-sm-6">
+          <div class="col-sm-5">
             <label for="email"><b>First Name</b></label>
             <input type="text" placeholder="Enter First Name" id="first name" required>
           </div>
-          <div class="col-sm-6">
+          <div class="col-sm-5">
             <label for="email"><b>Last Name</b></label>
             <input type="text" placeholder="Enter Last Name" id="last name" required>
           </div>
