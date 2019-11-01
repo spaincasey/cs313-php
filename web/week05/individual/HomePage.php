@@ -171,5 +171,19 @@
   </div>
 </div>
 
+<footer class="container-fluid text-center">
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Email - pannel@construction.com</p>
+    </div>
+    <div class="col-sm-4">
+      <p>Phone - 555-555-5555</p>
+    </div>
+    <div class="col-sm-4">
+      <p>Address - 123 N 456 S Rexburg, ID 83440</p>
+    </div>
+  </div>
+</footer>
+
 </body>
 </html>
