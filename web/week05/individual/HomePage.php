@@ -43,13 +43,13 @@ $db = get_db();
 		};
 		xhttp.open("POST", url , true);
 		xhttp.send();
-    <?php
-      if(isset($_SESSION['name'])){
-        $name = $_SESSION['name'];
-        echo "document.getElementById('user').innerHTML = {$name};"
-        // echo "<li><a href='#'>Welcome {$name}</a></li>";
-      }
-    ?>
+    // 
+    //   if(isset($_SESSION['name'])){
+    //     $name = $_SESSION['name'];
+    //     echo "document.getElementById('user').innerHTML = {$name};"
+    //     // echo "<li><a href='#'>Welcome {$name}</a></li>";
+    //   }
+    // ?>
   }
   </script>
 </head>
