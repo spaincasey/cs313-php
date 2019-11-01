@@ -19,6 +19,11 @@ h3 {
     color: #BCBEC5 !important;
 }
 
+h4 {
+    text-align: left;
+    color: #BCBEC5 !important;
+}
+
 img {
     width: 100%;
     height: auto;
@@ -89,10 +94,6 @@ input {
     padding-bottom: 10%;
     width: 75%;
     text-align: center;
-}
-
-.jobs h3 {
-    text-align:left;
 }
 
 .container-fluid {
