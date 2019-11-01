@@ -65,10 +65,6 @@
             <input type="text" placeholder="Enter Last Name" id="last name" required>
           </div>
         </div>
-        <label for="email"><b>First Name</b></label>
-        <input type="text" placeholder="Enter First Name" id="first name" required>
-        <label for="email"><b>Last Name</b></label>
-        <input type="text" placeholder="Enter Last Name" id="last name" required>
         <label for="email"><b>Email</b></label>
         <input type="text" placeholder="Enter Email" id="email" required>
       </div>
