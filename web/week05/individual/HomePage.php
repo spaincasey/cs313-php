@@ -3,6 +3,10 @@
 session_start();
 require "dbConnect.php";
 $db = get_db();
+if(isset($_SESSION['name'])){
+  $name = $_SESSION['name'];
+  echo "<li><a href='#'>Welcome {$name}</a></li>";
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -16,19 +20,9 @@ $db = get_db();
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="HomePage.css">
   <script type="text/javascript">
-  window.onload = function() {
-    // 
-    //   if(isset($_SESSION['name'])){
-    //     $name = $_SESSION['name'];
-    //     echo "document.getElementById('user').innerHTML = {$name};"
-    //     // echo "<li><a href='#'>Welcome {$name}</a></li>";
-    //   }
-    // ?>
-  }
   /********************************************************
 	* AJAX request to read the Job items
 	*********************************************************/
-  
   function addUser() {
     var first = document.getElementById("first_name").value;
     var last = document.getElementById("last_name").value;
@@ -43,13 +37,6 @@ $db = get_db();
 		};
 		xhttp.open("POST", url , true);
 		xhttp.send();
-    // 
-    //   if(isset($_SESSION['name'])){
-    //     $name = $_SESSION['name'];
-    //     echo "document.getElementById('user').innerHTML = {$name};"
-    //     // echo "<li><a href='#'>Welcome {$name}</a></li>";
-    //   }
-    // ?>
   }
   </script>
 </head>
@@ -200,6 +187,14 @@ $db = get_db();
     </div>
   </div>
 </footer>
+
+
+  <!-- if(isset($_SESSION['name'])){
+    $name = $_SESSION['name'];
+    echo "document.getElementById('user').innerHTML = {$name};"
+    // echo "<li><a href='#'>Welcome {$name}</a></li>";
+  } -->
+
 
 </body>
 </html>
