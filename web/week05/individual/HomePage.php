@@ -77,10 +77,10 @@ session_start();
       </div>
       <div class="modal-footer">
         <div class="row">
-          <div class="col-sm-5">
+          <div class="col-sm-6">
             <input type="submit" class="btn btn-primary" name="test" id="test" value="Sign Up" />
           </div>
-          <div class="col-sm-5">
+          <div class="col-sm-6">
             <input type="submit" class="btn btn-primary" name="test" id="test" value="Sign In" />
           </div>
         </div>
