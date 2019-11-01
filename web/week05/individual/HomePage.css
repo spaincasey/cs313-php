@@ -90,6 +90,11 @@ input {
     width: 75%;
     text-align: center;
 }
+
+.jobs h3 {
+    text-align:left;
+}
+
 .container-fluid {
     width: 75%;
 }
