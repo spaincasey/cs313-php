@@ -97,7 +97,7 @@ $db = get_db();
         <?php 
           if(!isset($_SESSION['name'])){
             $name = $_SESSION['name'];
-            echo "<li class='active'><a href='#'>Welcome {$name}</a></li>";
+            echo "<li><a href='#'>Welcome {$name}</a></li>";
           }
         ?>
       </ul>
