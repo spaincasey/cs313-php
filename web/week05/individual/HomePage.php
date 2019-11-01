@@ -23,7 +23,6 @@ $db = get_db();
     var first = document.getElementById("first_name").value;
     var last = document.getElementById("last_name").value;
     var email = document.getElementById("email").value;
-    alert("working");
     var url = "addUser.php?fname=" + first + "&lname=" + last + "&email=" + email;
 		var xhttp = new XMLHttpRequest();
 		xhttp.onreadystatechange = function() {
