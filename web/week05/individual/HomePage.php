@@ -3,6 +3,10 @@
 session_start();
 require "dbConnect.php";
 $db = get_db();
+if(isset($_SESSION['name'])){
+  $name = $_SESSION['name'];
+  echo "<li><a href='#'>Welcome {$name}</a></li>";
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -94,13 +98,7 @@ $db = get_db();
         <li><a href="reviews.php">Reviews</a></li>
         <li><a href="contact.php">Contact</a></li>
         <li><a href="#" data-toggle="modal" data-target="#signUpModal">Sign Up/Sign In</a></li>
-        <li>welcome</li>
-        <?php 
-          if(isset($_SESSION['name'])){
-            $name = $_SESSION['name'];
-            echo "<li><a href='#'>Welcome {$name}</a></li>";
-          }
-        ?>
+        <li><a href="#" id="user">welcome</a></li>
       </ul>
     </div>
   </div>
