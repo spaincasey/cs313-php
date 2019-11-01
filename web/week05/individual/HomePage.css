@@ -48,6 +48,10 @@ footer {
     color: #BCBEC5;
 }
 
+footer > .row > .col-sm-4 p {
+    font-size: 1vw;
+}
+
 .results {
     text-align: left;
 }
