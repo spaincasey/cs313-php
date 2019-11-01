@@ -11,7 +11,7 @@ while ($row = $statement->fetch(PDO::FETCH_ASSOC))
 	// $category = $row['category'];
 	$description = $row['description'];
 	$image = $row['image'];
-  echo "<h4>$description<h4>";
   echo "<img src='$image' class='img-responsive' alt='Image'>";
+  echo "<h3>$description<h3><hr>";
 }
 ?>
