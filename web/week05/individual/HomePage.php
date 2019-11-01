@@ -94,6 +94,7 @@ $db = get_db();
         <li><a href="reviews.php">Reviews</a></li>
         <li><a href="contact.php">Contact</a></li>
         <li><a href="#" data-toggle="modal" data-target="#signUpModal">Sign Up/Sign In</a></li>
+        <li>welcome</li>
         <?php 
           if(isset($_SESSION['name'])){
             $name = $_SESSION['name'];
