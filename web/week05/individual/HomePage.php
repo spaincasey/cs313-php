@@ -60,8 +60,6 @@
             <label for="email"><b>First Name</b></label>
             <input type="text" placeholder="Enter First Name" id="first name" required>
           </div>
-        </div>
-        <div class="row">
           <div class="col-sm-6">
             <label for="email"><b>Last Name</b></label>
             <input type="text" placeholder="Enter Last Name" id="last name" required>
