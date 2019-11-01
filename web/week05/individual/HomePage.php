@@ -36,9 +36,6 @@ $db = get_db();
 	}
 
   function addUser() {
-    var first = document.getElementById("first_name").value;
-    var last = document.getElementById("last_name").value;
-    var email = document.getElementById("email").value;
     <?php
     $first = document.getElementById("first_name").value;
     $last = document.getElementById("last_name").value;
@@ -63,16 +60,19 @@ $db = get_db();
         }
         else {
           echo '<script language="javascript">';
-          echo 'var url = "addUser.php?fname=" + first + "&lname=" + last + "&email=" + email;
+          echo "'var first = document.getElementById('first_name').value;
+          var last = document.getElementById('last_name').value;
+          var email = document.getElementById('email').value;
+          var url = 'addUser.php?fname=' + first + '&lname=' + last + '&email=' + email;
           var xhttp = new XMLHttpRequest();
           xhttp.onreadystatechange = function() {
             if (this.readyState == 4 && this.status == 200) {
               // data = this.responseText;
-              document.getElementById("result").innerHTML = this.responseText;
+              document.getElementById('result').innerHTML = this.responseText;
             }
           };
-          xhttp.open("POST", url , true);
-          xhttp.send();';
+          xhttp.open('POST', url , true);
+          xhttp.send();'";
           echo '</script>';
         }
     }
