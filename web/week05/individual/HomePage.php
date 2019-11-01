@@ -101,7 +101,7 @@ session_start();
         <li><a href="contact.php">Contact</a></li>
         <li><a href="#" data-toggle="modal" data-target="#signUpModal">Sign Up</a></li>
         <?php 
-          if($_SESSION["name"]){
+          if(!isset($_SESSION["name"])){
             echo "<li>Welcome $_SESSION["name"]</li>";
           }
         ?>
