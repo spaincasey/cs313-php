@@ -63,11 +63,11 @@ session_start();
       <form method="post" onsubmit="addUser()">
       <div class="modal-body">
         <div class="row">
-          <div class="col-sm-5">
+          <div class="col-sm-6">
             <label for="email"><b>First Name</b></label>
             <input type="text" placeholder="Enter First Name" id="first_name" required>
           </div>
-          <div class="col-sm-5">
+          <div class="col-sm-6">
             <label for="email"><b>Last Name</b></label>
             <input type="text" placeholder="Enter Last Name" id="last_name" required>
           </div>
