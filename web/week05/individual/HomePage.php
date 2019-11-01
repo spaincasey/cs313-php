@@ -102,7 +102,8 @@ session_start();
         <li><a href="#" data-toggle="modal" data-target="#signUpModal">Sign Up</a></li>
         <?php 
           if(!isset($_SESSION["name"])){
-            echo "<li>Welcome $_SESSION["name"]</li>";
+            $name = $_SESSION['name'];
+            echo "<li class='active'><a href='#'>Welcome {$name}</a></li>";
           }
         ?>
       </ul>
