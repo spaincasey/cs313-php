@@ -33,6 +33,15 @@ input {
     background: #f1f1f1;
 }
 
+.input1 {
+    width: 50%;
+    float: left;
+}
+.input2 {
+    width: 50%;
+    float: right;
+}
+
 .div3 { 
     background-color: #383B53;
     display: block;
