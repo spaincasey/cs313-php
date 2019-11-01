@@ -41,7 +41,7 @@ input {
 footer {
     width: 100%;
     background-color: #222222;
-    padding-top: 50px 12.5% 50px 12.5%;
+    padding: 5% 12.5% 5% 12.5%;
     text-align: center;
     color: #BCBEC5;
 }
