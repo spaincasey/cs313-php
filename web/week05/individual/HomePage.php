@@ -55,10 +55,22 @@
       </div>
       <form method="post" onsubmit="addUser()">
       <div class="modal-body">
+        <div class="row">
+          <div class="col-sm-6">
+            <label for="email"><b>First Name</b></label>
+            <input type="text" placeholder="Enter First Name" id="first name" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <label for="email"><b>Last Name</b></label>
+            <input type="text" placeholder="Enter Last Name" id="last name" required>
+          </div>
+        </div>
         <label for="email"><b>First Name</b></label>
-        <input type="text" placeholder="Enter First Name" id="first name" class="input1" required>
+        <input type="text" placeholder="Enter First Name" id="first name" required>
         <label for="email"><b>Last Name</b></label>
-        <input type="text" placeholder="Enter Last Name" id="last name" class="input2" required>
+        <input type="text" placeholder="Enter Last Name" id="last name" required>
         <label for="email"><b>Email</b></label>
         <input type="text" placeholder="Enter Email" id="email" required>
       </div>
