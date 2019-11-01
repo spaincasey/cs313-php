@@ -36,55 +36,19 @@ $db = get_db();
 	}
 
   function addUser() {
-    <?php
-    $first = document.getElementById("first_name").value;
-    $last = document.getElementById("last_name").value;
-    $email = document.getElementById("email").value;
-    $statement = $db->prepare("SELECT email FROM User_app WHERE email = '$email'");
-    $statement->execute();
-    // if ($_POST['action'] == 'Sign in') {
-    //     if (pg_num_rows($statement)) {
-    //       $_SESSION["name"] = $first += " " += $last;
-    //     }
-    //     else {
-    //       echo 'alert("This email does not exist in our records")';
-    //     }
-    // }
-    // else if ($_POST['action'] == 'Sign up') {
-    //     if (pg_num_rows($statement)) {
-    //       echo '<script language="javascript">';
-    //       echo 'alert("This email is already registered")';
-    //       echo '</script>';
-    //     }
-    //     else {
-    //       echo '<script language="javascript">';
-    //       echo "'var first = document.getElementById('first_name').value;
-    //       var last = document.getElementById('last_name').value;
-    //       var email = document.getElementById('email').value;
-    //       var url = 'addUser.php?fname=' + first + '&lname=' + last + '&email=' + email;
-    //       var xhttp = new XMLHttpRequest();
-    //       xhttp.onreadystatechange = function() {
-    //         if (this.readyState == 4 && this.status == 200) {
-    //           // data = this.responseText;
-    //           document.getElementById('result').innerHTML = this.responseText;
-    //         }
-    //       };
-    //       xhttp.open('POST', url , true);
-    //       xhttp.send();'";
-    //       echo '</script>';
-    //     }
-    // }
-    ?>
-    // var url = "addUser.php?fname=" + first + "&lname=" + last + "&email=" + email;
-		// var xhttp = new XMLHttpRequest();
-		// xhttp.onreadystatechange = function() {
-		// 	if (this.readyState == 4 && this.status == 200) {
-    //     // data = this.responseText;
-    //     document.getElementById("result").innerHTML = this.responseText;
-		// 	}
-		// };
-		// xhttp.open("POST", url , true);
-		// xhttp.send();
+    var first = document.getElementById("first_name").value;
+    var last = document.getElementById("last_name").value;
+    var email = document.getElementById("email").value;
+    var url = "addUser.php?fname=" + first + "&lname=" + last + "&email=" + email;
+		var xhttp = new XMLHttpRequest();
+		xhttp.onreadystatechange = function() {
+			if (this.readyState == 4 && this.status == 200) {
+        // data = this.responseText;
+        document.getElementById("result").innerHTML = this.responseText;
+			}
+		};
+		xhttp.open("POST", url , true);
+		xhttp.send();
   }
   </script>
 </head>
