@@ -17,13 +17,13 @@ $db = get_db();
   <link rel="stylesheet" href="HomePage.css">
   <script type="text/javascript">
   window.onload = function() {
-    <?php
-      if(isset($_SESSION['name'])){
-        $name = $_SESSION['name'];
-        echo "document.getElementById('user').innerHTML = {$name};"
-        // echo "<li><a href='#'>Welcome {$name}</a></li>";
-      }
-    ?>
+    // 
+    //   if(isset($_SESSION['name'])){
+    //     $name = $_SESSION['name'];
+    //     echo "document.getElementById('user').innerHTML = {$name};"
+    //     // echo "<li><a href='#'>Welcome {$name}</a></li>";
+    //   }
+    // ?>
   }
   /********************************************************
 	* AJAX request to read the Job items
