@@ -171,7 +171,7 @@
   </div>
 </div>
 
-<footer class="container-fluid text-center">
+<footer>
   <div class="row">
     <div class="col-sm-4">
       <p>Email - pannel@construction.com</p>
