@@ -103,11 +103,12 @@
   </div>
 </nav>
 
-<div class="container"> 
+<!-- <div class="container"> 
   <img src="residential.jpg" alt="Los Angeles">
-</div>
+</div> -->
 
 <div class='jobs'>
+  <img src="residential.jpg" alt="Los Angeles">
   <div class='jobs'>
     <h1>Contact Us</h1>
     <h3>We would love to work with you on your next construction project
@@ -136,7 +137,19 @@
     </div>
   </div>
 </div>
-<footer class="container-fluid text-center">
+
+<footer>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Email - pannel@construction.com</p>
+    </div>
+    <div class="col-sm-4">
+      <p>Phone - 555-555-5555</p>
+    </div>
+    <div class="col-sm-4">
+      <p>Address - 123 N 456 S Rexburg, ID 83440</p>
+    </div>
+  </div>
 </footer>
 
 </body>
