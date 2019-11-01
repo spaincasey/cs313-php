@@ -16,29 +16,14 @@ $db = get_db();
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="HomePage.css">
   <script type="text/javascript">
-    window.onload = function() {
-        // read();
-    }
-
   /********************************************************
 	* AJAX request to read the Job items
 	*********************************************************/
-	function read() {
-		var xhttp = new XMLHttpRequest();
-		xhttp.onreadystatechange = function() {
-			if (this.readyState == 4 && this.status == 200) {
-        var data = this.responseText;
-        document.getElementById("results").innerHTML = data;
-			}
-		};
-		xhttp.open("GET", "loadData.php" , true);
-		xhttp.send();
-	}
-
   function addUser() {
     var first = document.getElementById("first_name").value;
     var last = document.getElementById("last_name").value;
     var email = document.getElementById("email").value;
+    alert("working");
     var url = "addUser.php?fname=" + first + "&lname=" + last + "&email=" + email;
 		var xhttp = new XMLHttpRequest();
 		xhttp.onreadystatechange = function() {
@@ -78,14 +63,15 @@ $db = get_db();
         <input type="text" placeholder="Enter Email" id="email" required>
       </div>
       <div class="modal-footer">
-        <div class="row">
+        <input type="submit" class="btn btn-primary" name="action" value="Sign Up/Sign In" />
+        <!-- <div class="row">
           <div class="col-sm-6">
-            <input type="submit" class="btn btn-primary" name="action" value="Sign Up" />
+            <input type="submit" class="btn btn-primary" name="action" value="Sign Up/Sign In" />
           </div>
           <div class="col-sm-6">
             <input type="submit" class="btn btn-primary" name="action" value="Sign In" />
           </div>
-        </div>
+        </div> -->
       </div>
       </form>
     </div>
