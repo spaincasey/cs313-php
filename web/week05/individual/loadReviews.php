@@ -14,7 +14,7 @@ while ($row = $statement->fetch(PDO::FETCH_ASSOC))
     $statement2 = $db->prepare("SELECT first_name, last_name FROM User_app WHERE id = $user_app");
     $statement2->execute();
     
-    // $name = '';
+    $name = '';
     while ($row2 = $statement2->fetch(PDO::FETCH_ASSOC))
     {
         $name = $row2['first_name'] + " " + $row2['last_name'];
