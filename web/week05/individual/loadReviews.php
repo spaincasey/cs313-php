@@ -23,6 +23,6 @@ while ($row = $statement->fetch(PDO::FETCH_ASSOC))
     }
 	$review = $row['review_text'];
     echo "<h3>$fname $lname</h3>";
-    echo "<p>$review</p>";
+    echo "<p>$review</p><hr>";
 }
 ?>
