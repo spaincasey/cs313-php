@@ -1,7 +1,12 @@
 <?php
 require "dbConnect.php";
 $db = get_db();
-$q = $_REQUEST["q"];
+$first = $_REQUEST["fname"];
+$last = $_REQUEST["lname"];
+$email = $_REQUEST["email"];
+$statement2 = $db->prepare("INSERT INTO User_app(first_name, last_name, email)VALUES('$first', '$last', '$email')");
+$statement2->execute();
+// $q = $_REQUEST["q"];
 // $statement = $db->prepare("SELECT email FROM User_app WHERE email = $email");
 // $statement->execute();
 // if(mysql_num_rows($sql)>=1)
@@ -22,7 +27,7 @@ $q = $_REQUEST["q"];
 // }
 // else
 // {
-   $statement2 = $db->prepare("INSERT INTO User_app(email)VALUES('$q')");
+   $statement2 = $db->prepare("INSERT INTO User_app(first_name, last_name, email)VALUES('$first', '$last', '$email')");
    $statement2->execute();
    // Go through each result
    // while ($row = $statement->fetch(PDO::FETCH_ASSOC))

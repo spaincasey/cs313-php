@@ -30,7 +30,10 @@
 	}
 
   function addUser() {
-    var str = document.getElementById("email").value;
+    var first = document.getElementById("first_name").value;
+    var last = document.getElementById("last_name").value;
+    var email = document.getElementById("email").value;
+    var url = "addUser.php?fname=" + first + "&lname=" + last + "&email=" + email;
 		var xhttp = new XMLHttpRequest();
 		xhttp.onreadystatechange = function() {
 			if (this.readyState == 4 && this.status == 200) {
@@ -38,7 +41,7 @@
         document.getElementById("result").innerHTML = this.responseText;
 			}
 		};
-		xhttp.open("POST", "addUser.php?q="+str , true);
+		xhttp.open("POST", url , true);
 		xhttp.send();
   }
   </script>
@@ -58,11 +61,11 @@
         <div class="row">
           <div class="col-sm-5">
             <label for="email"><b>First Name</b></label>
-            <input type="text" placeholder="Enter First Name" id="first name" required>
+            <input type="text" placeholder="Enter First Name" id="first_name" required>
           </div>
           <div class="col-sm-5">
             <label for="email"><b>Last Name</b></label>
-            <input type="text" placeholder="Enter Last Name" id="last name" required>
+            <input type="text" placeholder="Enter Last Name" id="last_name" required>
           </div>
         </div>
         <label for="email"><b>Email</b></label>
