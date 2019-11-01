@@ -41,7 +41,8 @@ input {
 footer {
     width: 100%;
     background-color: #222222;
-    padding: 50px 0px 0px 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .results {
