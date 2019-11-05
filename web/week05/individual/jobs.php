@@ -121,7 +121,7 @@ session_start();
         <option value="" selected>all</option>
     		<option value="drywall">drywall</option>
     		<option value="roofing">roofing</option>
-    		<option value="demolition">demoltion</option>
+    		<option value="demolition">demolition</option>
 	  	</select>
     <div id="results">
     </div>
