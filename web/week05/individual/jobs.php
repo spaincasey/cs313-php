@@ -117,7 +117,7 @@ session_start();
 <div class='jobs'>
   <div class='jobs'>
     <h1>Our Projects</h1>
-      <select id="category" onchange="read()" required>
+      <select class="dropdown" id="category" onchange="read()" required>
         <option value="" selected>all</option>
     		<option value="drywall">drywall</option>
     		<option value="roofing">roofing</option>
