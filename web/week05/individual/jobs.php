@@ -22,6 +22,7 @@ session_start();
 	* AJAX request to read the Job items
 	*********************************************************/
 	function read() {
+    var category = document.getElementById("category").value;
 		var xhttp = new XMLHttpRequest();
 		xhttp.onreadystatechange = function() {
 			if (this.readyState == 4 && this.status == 200) {
@@ -29,7 +30,7 @@ session_start();
                 document.getElementById("results").innerHTML = data;
 			}
 		};
-		xhttp.open("GET", "loadData.php" , true);
+		xhttp.open("GET", "loadData.php?category=" + category , true);
 		xhttp.send();
 	}
 
@@ -116,15 +117,12 @@ session_start();
 <div class='jobs'>
   <div class='jobs'>
     <h1>Our Projects</h1>
-    <div class="dropdown">
-      <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Categories
-      <span class="caret"></span></button>
-      <ul class="dropdown-menu">
-        <li><a href="#">Drywall</a></li>
-        <li><a href="#">Roofing</a></li>
-        <li><a href="#">Demolition</a></li>
-      </ul>
-    </div>
+      <select id="category" onchange="read()" required>
+        <option value="" selected>all</option>
+    		<option value="drywall">drywall</option>
+    		<option value="roofing">roofing</option>
+    		<option value="demolition">demoltion</option>
+	  	</select>
     <div id="results">
     </div>
   </div>
